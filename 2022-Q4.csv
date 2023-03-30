@@ -1,0 +1,28 @@
+﻿Task name,Date,Tags,Status,Repo/PR,Notes
+"Juno Vaults Audit,Cleanup,e2e test for JGF","December 30, 2022",Juno,Done,https://github.com/LeTurt333/juno_vaults,"Formating, Linting, Custom E2E test, Add whitelist, remove token whitelist, Better Queries, removed redundent lines for maintanability, add queries for address only via Index, not shown in standard query. PRs 2, 3, 8, 9, 10, 18, 19"
+IBC anywhere ibc.reece.sh,"December 27, 2022",Ecosystem,Done,,
+Linting code cleanup refactor + logic,"December 22, 2022",Juno,Done,https://github.com/CosmosContracts/juno/pull/431,
+INFRA: Juno RPC/rest & http://snapshot.reece.sh,"December 20, 2022","Infra, Juno",Done,https://github.com/Reecepbcups/reverse-proxy,"https://github.com/Reecepbcups/juno-node
+in the USA, no hetzner - ~500k request to RPC a day. No rate limits"
+"Better airdrop guide + tooling for CW20, native, and new chain spin ups","December 17, 2022",Juno,In progress,https://github.com/Reecepbcups/airdrop-tools,
+SDK - Speed up Export time ~50%,"December 15, 2022",Ecosystem,Done,https://github.com/cosmos/cosmos-sdk/pull/14332,todo: look into doing for migration as well - push to osmosis-sdk
+Call with Frey on Juno upgrade (planned/security) standards,"December 14, 2022",,Done,,
+Doing my first upgrade for JOE chain (code + proposal),"December 13, 2022",,Done,https://imgur.com/a/oDdymOp,success!
+"Auto Proposal Maker (needs work, may scrap)","December 12, 2022",,Done,https://github.com/Reecepbcups/auto-proposal-maker,
+Uni/Mainnet upgrade handler,"December 12, 2022",Juno,Done,https://github.com/CosmosContracts/juno/pull/410,
+Learning Slevte for Web UI (contracts/bots),"December 8, 2022",Other,In progress,http://app.cosmosibc.space & http://ibc.reece.sh so far,
+Juno CW20→TokenFactory meeting,"December 7, 2022",,Done,https://hackmd.io/@reecepbcups/cw20-to-tokenfactory,"Reece, Jake, Ekez, noah, signal, KLEO, rac, netadao"
+Juno interchain ica,"December 6, 2022",,Done,https://github.com/CosmosContracts/juno/pull/215,"Merge main (jun9→dec6), ver bump add new keepers to correct locations"
+Juno x/globalfee,"December 5, 2022",,Done,https://github.com/CosmosContracts/juno/pull/411,
+Juno Wasmd 30 + IBC v4,"December 2, 2022",Juno,Done,https://github.com/CosmosContracts/juno/pull/387,waiting on ics 0.9.0 merge into upstream
+Juno x/FeeShare Module,"November 30, 2022",Juno,Done,https://github.com/CosmosContracts/juno/pull/385,"custom test, ante handler logic, hard fork of module, specs sheets"
+CW20→Tokenfactory 1-1 burn contracts,"November 28, 2022",Juno,Done,https://github.com/Reecepbcups/cw20-tokenfactory-burn,
+Cosmos Proposal Analysis,"November 5, 2022",Ecosystem,Done,https://github.com/Reecepbcups/cosmos-proposal-analytics,
+Chain Chores,"October 23, 2022",Ecosystem,Done,https://github.com/reecepbcups/chain-chores,
+Snapshot Export Sort (airdrops),"October 22, 2022",Ecosystem,Done,https://github.com/Reecepbcups/cosmos-state-export-sort,
+Cosmos Spaces Automation (twitter bot & website),"October 18, 2022",Bots,Done,https://github.com/Reecepbcups/cosmos-spaces-automation,
+https://www.notion.so/363e615709c04fcfa9d69c0c711c231euno Tx Analysis (500k blocks),"October 17, 2022",Juno,Done,https://github.com/Reecepbcups/juno-analysis,camel for FeeShare + kevin for Growth DAO
+Dragonberry Patches,"October 14, 2022",Ecosystem,Done,"https://github.com/axelarnetwork/axelar-core/pull/1789
+ https://github.com/ovrclk/cosmos-sdk/pull/253
+ https://github.com/TERITORI/teritori-chain/pull/49
+ https://github.com/cerberus-zone/cerberus/pull/50",

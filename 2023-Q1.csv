@@ -1,0 +1,91 @@
+﻿Task name,Date,Tags,Status,Repo/PR,Notes
+ictest: Added ParamChangeProposal & queries,"March 30, 2023","StrangeLove, Testing",Done,Needed to write e2e for GlobalFee & IBC unbonding periods.,https://github.com/strangelove-ventures/interchaintest/pull/467
+POC: Use gas compute instead of denom if cost 0,"March 28, 2023",,Done,https://github.com/CosmosContracts/token-factory/pull/14,https://commonwealth.im/juno/discussion/10596-parameter-change-reduce-denom_creation_fee-to-zero
+Removed all past stale/empty branches,"March 27, 2023",,Done,,
+"[v14] Tagged alpha.1, uni-6 instructions, proposal desc","March 27, 2023",Juno,Done,https://github.com/CosmosContracts/testnets/blob/main/uni-6/03_V14_BETA_UPGRADE.md,Also working on Juno network release guide from start to finish → https://hackmd.io/@reecepbcups/HkxdIz0xh
+[v15] TokenFactory - Disable Send,"March 26, 2023",Juno,Done,https://github.com/CosmosContracts/token-factory/pull/12,
+Metting with Bao (tailwind),"March 22, 2023",Meeting,Done,,"22m - resources for CW, juno docs, my background, best way to develop on Juno - future plans"
+v14 TF: patched sending funds to blocked accounts,"March 22, 2023",Juno,Done,https://github.com/CosmosContracts/token-factory/pull/10,
+v14 TF: Adds new bindings to our TF fork,"March 22, 2023",Juno,Done,https://github.com/CosmosContracts/token-factory/pull/11,Put in my Juno TF PR: https://github.com/CosmosContracts/juno/pull/615
+v14 juno-ts: GlobalFee + new TokenFactory proto,"March 22, 2023",Juno,Blocked,https://github.com/CosmosContracts/juno-ts/pull/9,Waiting for v14 mainnet to merge
+TokenFactory force transfer wasm bindings,"March 22, 2023","CosmWasm, Juno",Done,https://github.com/CosmosContracts/token-bindings/pull/1,
+[v14] Adds updated tokenfactory + tested,"March 21, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/615,
+"ci: optimize CI depending on updated files ","March 21, 2023",,Done,https://github.com/CosmosContracts/juno/pull/614,
+[v14] wasmd 31 & wasmvm 1.2.1,"March 21, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/613,
+Update Roadmap (v14+),"March 21, 2023",Writing,Done,https://github.com/CosmosContracts/juno/pull/612,
+Fix docker tags (v13.0.1) & v14,"March 20, 2023",CI,Done,https://github.com/CosmosContracts/juno/pull/609,
+Juno Hackathon (Block) Farm Template/Example,"March 20, 2023",CosmWasm,Done,https://github.com/Reecepbcups/juno-hackathon-farm-example,
+"Juno TokenFactory - burnFrom, mintTo, & ForceTransfer","March 19, 2023",Juno,Done,https://github.com/CosmosContracts/token-factory/pull/9,v14
+"[v14] add GlobalFee, IBCHooks, Speed up CI 600%+ (40m → 6.5m)","March 19, 2023","Juno, Testing",Done,https://github.com/CosmosContracts/juno/pull/597,MASSIVEEEE
+Increase max wasm file size for testing,"March 18, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/600,
+Drastically speed up heighliner CI docker speeds,"March 18, 2023","StrangeLove, Testing",Done,https://github.com/strangelove-ventures/heighliner/pull/107,"Caches strangeloves heighliner to add and compile at the end, rather than the begining. Juno cache times take 30+ minutes withhout this."
+cli: force set gas & other Tx flags through client.toml vars,"March 18, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/601,
+redid http://juno.reece.sh - added simple dev & user migrations,"March 17, 2023",WebApp,Done,,design overhaul as well
+launched TokenFactory & FeeShare UI + added Send Token Support,"March 16, 2023",WebApp,Done,https://juno.reece.sh/,
+Adds tokenfactory create & mint to website,"March 15, 2023",WebApp,Done,https://github.com/Reecepbcups/juno-chain-webapp,
+Juno FeeShare UI webapp,"March 15, 2023",WebApp,Done,https://github.com/Reecepbcups/juno-chain-webapp,Register / update contracts easily from UI. Future: Add easy tokenfactory as well
+"Remove Oracle, Inter-tx - adds Interchain Test","March 14, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/591,ictest from Justin @ strangelove. Gets base ready for v14 in another PR
+Documentation Working Group (discord),"March 14, 2023",Docs,Recurring,,
+Removed 1000+ duplicate images in docs,"March 14, 2023",Docs,Done,https://github.com/CosmosContracts/docs/pull/80,
+FeeShare & Tokenfactory for juno-ts,"March 13, 2023",,Done,"https://github.com/CosmosContracts/typescript/pull/5
+https://github.com/CosmosContracts/juno-ts/pull/6",
+"v13 launch live, 6m 22s woo","March 13, 2023",Juno,Done,,
+v13 blog #2 for Wolf / main medium,"March 12, 2023",Writing,Done,https://medium.com/@reecepbcups/juno-v13-outline-for-official-medium-7c611b229ed3,
+"AddrConvert, ts-codegen, IBC transfer, go rly, onramps, Format Proposals, general cleanup, tf+feeshare subspaces","March 10, 2023",Docs,Done,,https://github.com/CosmosContracts/docs/compare/05ca2be486d21aa1216a158339652f0983ba3e8f...fe31bfd3afbacd3f09564e7771c920b870f64e5d  & https://github.com/CosmosContracts/docs/pull/78
+Lots of Docs,"March 9, 2023",Docs,Recurring,https://github.com/CosmosContracts/docs/pull/78,"Lost of common questions / good to know information in relation to cosmos as a whole, but has 0 documentation on how to do it."
+Starting CW20-migrate contgract,"March 8, 2023",CosmWasm,Done,https://github.com/CosmosContracts/tokenfactory-contracts/pull/3,
+"v13 release (tag, proposal desc, scripts, & announcement)","March 6, 2023",Juno,Done,v13.0.0 WOO,
+docs: contract basics & useful developer understanding,"March 3, 2023",Docs,In progress,https://github.com/CosmosContracts/docs/pull/74,FeeShare & Tokenfactory: https://github.com/CosmosContracts/docs/pull/74/commits/9dc4d5a95792d60206ed7a2f45f427b0a8f406bc
+docs: add v13 schema,"March 1, 2023","Docs, Juno",In progress,https://github.com/CosmosContracts/docs/pull/73,"Bump vers, add v13 opneapi endpoints, "
+Testing duplicate storeKey on upgrade & mitigation for mainnet v13,"February 27, 2023",,Done,,"v7.0.0 storeKey upgrade for icacontroller is back in v13 to fix Uni testnet. If it fails, we just remove icacontroller.StoreKey from the upgradeHandler & it patches"
+Refactor TokenFactory contracts for Native burning,"February 27, 2023",CosmWasm,Done,https://github.com/CosmosContracts/tokenfactory-contracts/pull/1,Ray @ YFOundry needs to burn ibc denoms in exchange for factory/ denoms
+released v13.0.0-beta.2 (versioning + patches),"February 27, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/575,
+tokenfactory - more metadata for webapps to query,"February 24, 2023",Juno,Done,https://github.com/CosmosContracts/token-factory/pull/6,
+Aqua Hack - Snapshots & scripts of holders,"February 24, 2023",Scripts,Done,https://github.com/Reecepbcups/aqua-holders,"grabs stakers, WYND-AQUA, and JUNO-AQUA pairs. Saves to easy JSON file before the attack"
+WASM ante filter to allow higher block gas limits again,"February 23, 2023","CosmWasm, Juno, Security",Done,https://github.com/CosmosContracts/juno/pull/571,
+TokenFactory: Contract Documentation & Setup,"February 22, 2023","Juno, Writing",Done,"https://github.com/Reecepbcups/tokenfactory-core-contract
+https://github.com/Reecepbcups/cw20-tokenfactory-migration",Very much needed to help ensure developers can actually use the TF middleware & set it up with the CW20 migration mint/balance contract
+tagged v13.0.0-beta.1 off reece/v13-part1 branch (ares-1 work group),"February 21, 2023",Juno,Done,,Release fridaty
+"FeeShare register DAOs, no bindings","February 20, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/566,
+v12 critical patches (upgradeHandler),"February 19, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/565,"Crisis DDoS prevention, fix invariance w/ distribution, patch wasmd exploit. Live on mainnet in 7.5 minutes"
+CosmosCache - dockerize + akash,"February 19, 2023",Infra,Done,,
+WasmBindings (Rust),"February 17, 2023","CosmWasm, Juno",Blocked,https://github.com/CosmosContracts/juno-bindings,
+WasmBindings for GetVote,"February 17, 2023","CosmWasm, Juno",Blocked,https://github.com/CosmosContracts/juno/pull/563,Done via Stargate query now instead
+TokenFactory middleware contract,"February 17, 2023","CosmWasm, Juno",Done,https://github.com/Reecepbcups/tokenfactory-core-contract,Probably need to move to Juno repo in the future. Middleware core contract so multiple contracts can mint on behalf of the single denom admin (like CW4)
+Patched wasmd 0-day exploit,"February 14, 2023","CosmWasm, Juno, Security",Done,"https://github.com/CosmosContracts/wasmd/releases/tag/v0.29.2-patch.1
+https://github.com/CosmosContracts/juno-v12",attached in v12 mainnet upgrade handler
+Trying to find wasmd/daodao bug from TG chat,"February 13, 2023",,Done,,Indexer bug hehe
+v12 proposal + proposal maker (markdown→string),"February 13, 2023",Juno,Done,https://github.com/Reecepbcups/cosmos-proposal-maker,
+CosmWasm Idle farm game,"February 11, 2023","CosmWasm, Juno",Done,https://github.com/Reecepbcups/cosmwasm-idle-game,Maybe can use tokenfactory as the currency? Could be pretty cool
+Solved wasmd halt exploit,"February 9, 2023","CosmWasm, Security",Done,,
+Leading Ares-1 testnet (private),"February 9, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/556,
+Call w/ Frey over General Oracle,"February 7, 2023",CosmWasm,Done,,
+Found IAVL store bug from v45.12SDK upgrade (Jan 31st),"February 6, 2023",,Done,,
+Uni Val & RPC+REST (cached),"February 6, 2023","Infra, Juno",Done,,
+CosmosCache - TM-RPC block subscribe,"February 5, 2023",,Done,https://github.com/Reecepbcups/cosmos-endpoint-cache/pull/15,no stale data via WS sub. & reconnect
+SDK .12 patch & version + upgrade handler Bump main v13,"January 31, 2023",Juno,Done,"https://github.com/CosmosContracts/juno/pull/541
+https://github.com/CosmosContracts/juno/pull/543",
+Building alternate oracle w/ wasm + feeder (like chainlink),"January 28, 2023",CosmWasm,Done,https://github.com/Reecepbcups/wasm-oracle,"Useful for other projects, for example Gold price, stocks, etc. Permissioned, with slashing"
+Built app-hash testing (bash scripts),"January 20, 2023",Ecosystem,Done,"https://github.com/CosmosContracts/juno/pull/530
+https://github.com/CosmosContracts/juno/pull/523",will use iinterchain-test in the future
+"Uni-5 testnet apphash coordination & solving ","January 20, 2023",Juno,Blocked,"https://github.com/CosmosContracts/juno/pull/530
+https://github.com/CosmosContracts/juno/pull/527
+https://github.com/CosmosContracts/juno/pull/523
+https://github.com/CosmosContracts/juno/pull/525",many… many… many… hours… and lots of bash scripts…
+Cosmos RPC/REST Node proxy cache,"January 19, 2023","Ecosystem, Infra",Done,https://github.com/Reecepbcups/cosmos-endpoint-cache,https://juno-rpc.reece.sh/
+"V12 Cleanup (Swagger. ica-config, debug, spelling, improve CI)","January 17, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/509,BIG PR FOR V12
+scripts(Relay CW20 w/ CW20-ics20 contract) - with hermes,"January 15, 2023","IBC, Juno",Done,https://github.com/CosmosContracts/juno/pull/512,
+Juno OpenAPI swagger,"January 14, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/511,"THIS WAS SO HARD, BUT SO GLAD IT WORKS NOW & FULLY AUTOMATED INCLUDING IMPORTED MODULES"
+CosmWasm E2E testing (bash),"January 13, 2023","CosmWasm, Testing",Done,https://github.com/Reecepbcups/juno_vaults/tree/main/e2e,
+v12(Upgrade-handler) Params apply now on upgrade,"January 12, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/489,
+Oracle(fix variable names),"January 12, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/504,
+Releases with SHA256sum,"January 12, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/505,
+Refactor oracle documentation + add docker support,"January 12, 2023",Writing,Done,https://github.com/CosmosContracts/juno/pull/490,
+Oracle(Price-Feeder) QOL improvements,"January 12, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/503,
+"Cleanup bash scripts,  to review ibc-hooks & ibcmemo from osmosis pr","January 11, 2023","Juno, Testing",Done,https://github.com/CosmosContracts/juno/pull/492,
+Roadmap for v12/13 in repo,"January 10, 2023",Writing,Done,https://github.com/CosmosContracts/juno/pull/483,
+Oracle Discord Bot Notifs,"January 9, 2023",Bots,In progress,https://github.com/Reecepbcups/juno-oracle-notifs,"polkachu has done now, not progressing"
+GlobalFee - direct fee set via param,"January 8, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/479,runs after Migrations to set the new default
+x/oracle review + docs + test scripts,"January 5, 2023","Juno, Writing",Done,,"code review, fixes, testing locally + docs with Kevin"
+Blog Post - v12,"January 3, 2023",Writing,Done,Medium,
+Ekez Juno Call,"January 3, 2023",Juno,Done,,
