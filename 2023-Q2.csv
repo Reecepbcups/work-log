@@ -1,0 +1,191 @@
+Task name,Date,Tags,Status,Repo/PR,Notes
+"Migrate and fix imports for PFM, ICQ, and IBC-Hooks from IBC-Apps for SDK v47","June 30, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/737,
+Add pre commit checks to repo,"June 29, 2023","Juno, bash",Done,https://github.com/CosmosContracts/juno/pull/738,
+Trying to migrate to IBC-Apps repo. Looks like a limitation of GoLang rn…,"June 29, 2023","IBC, Juno, PFM",In progress,- https://github.com/Reecepbcups/ibc-apps/commits/reece/wasm08-support & https://github.com/CosmosContracts/juno/pull/737,If this is not possible we may have to fork IBC-Apps and change required namespaces
+v16: migrate Wolfs vesting to the Core-1 subDAO as liquid,"June 28, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/735,Can re-use to migrate all core-1 members to new vesting contracts controlled by Gov. Just need a list of all Core-1 accounts + their new/ personal wallets
+ictest: Added public REST API endpoint for LocalIC,"June 28, 2023","interchain-test, localjuno",Done,https://github.com/strangelove-ventures/interchaintest/pull/610/commits/ba71ff1a29962b3e2018438e9b6b6c88740d33a9,
+"wasm08: Finished client upgrade, CI passes","June 28, 2023","CosmWasm, IBC, Juno",Done,https://github.com/CosmosContracts/juno/pull/680,
+ibc: Migrate ICQ to add wasm-08 support,"June 27, 2023","IBC, StrangeLove",Done,https://github.com/strangelove-ventures/async-icq/pull/55,
+ibc: Migrate wasmd to add wasm-08 support,"June 27, 2023","CosmWasm, IBC",Done,https://github.com/CosmWasm/wasmd/pull/1468,
+ibc: Migrate PFM to new ibc capabilities for wasm-08 client,"June 27, 2023","IBC, PFM, StrangeLove",Done,https://github.com/strangelove-ventures/packet-forward-middleware/pull/89,
+v47 migration: Fix x/mint and x/globalfee denoms for juno-1 and testnet,"June 26, 2023","Juno, Testing",Done,https://github.com/CosmosContracts/juno/pull/708/commits/863a1ab0626b1d46327c751e26d1a137db3c5d53 - https://github.com/CosmosContracts/juno/issues/732,"Found issue where it was only using ujuno, would have broken testnet. Dynamic upgrades now for app.GetDefaultBondDenom() using some reflection.
+
+FIX: Future we need to test for both mainnet & testnet denoms in e2e."
+core-1 call,"June 26, 2023",Meeting,Done,,
+localic: More Examples + REST API Documentation,"June 25, 2023","interchain-test, localjuno",Done,https://github.com/Reecepbcups/local-interchain/pull/51,"- base_ibc (CosmosHub, Terra, and Juno), 
+- CosmosHub standalone
+- Stargaze standalone"
+localic: Merge Action handler & relayer into 1 endpoint,"June 25, 2023","interchain-test, localjuno",Done,https://github.com/Reecepbcups/local-interchain/pull/50,
+"localic: Py + Go lint, RequestBuilder, CosmWasm & Relayer builders","June 24, 2023","interchain-test, localjuno",Done,https://github.com/Reecepbcups/local-interchain/pull/47,
+"localic: Relay between chains, contracts - at run time + Dynamic Router","June 24, 2023","interchain-test, localjuno",Done,https://github.com/Reecepbcups/local-interchain/pull/46,
+v47: Adding Skip’s x/pob module,"June 23, 2023",Juno,In progress,https://github.com/CosmosContracts/juno/pull/731,
+v47: Tokenfactory Validation Migration (x/bank hard fork issue),"June 23, 2023",Juno,In progress,https://github.com/CosmosContracts/juno/pull/730,
+chore: Fix testnet fees + version for chain-registry,"June 23, 2023",chore,Done,https://github.com/cosmos/chain-registry/pull/2404,
+Reduced testing times,"June 23, 2023","Juno, Testing",Done,https://github.com/CosmosContracts/juno/pull/729,
+localic: Faster block times config + validation,"June 23, 2023","interchain-test, localjuno",Done,https://github.com/Reecepbcups/local-interchain/pull/45,
+Leap Wallet,"June 22, 2023",Meeting,Done,,"wallet, new b2b product & use cases, archive nodes + indexing"
+CometBFT: attempt to decode bz to JSON for Tx types in the RPC,"June 21, 2023",,Blocked,,"due to the SDK wrapped the RPC endpoints, currently not possible. Need to see if I can inject / override requests on the SDK side to support"
+ictest: reviewed changes + usage in Juno and LocalIC,"June 21, 2023",localjuno,Done,"https://github.com/CosmosContracts/juno/pull/724 - WIP (Waiting on main)
+
+https://github.com/Reecepbcups/local-interchain/commit/91906430cbb62a89a71756e01539943a3a83b61f",
+"Sei Network (Philip) ","June 20, 2023",Meeting,Done,,"CosmosCache, interchain-test, Exports, and local-interchain"
+SG-1 (Clyde) Infra Call,"June 20, 2023",Meeting,Done,,Cosmos Cache on Akash
+"v2 rewrite - better indexing, storage, and query systems","June 19, 2023",Indexer,In progress,https://github.com/Reecepbcups/cosmos-indexer/pull/17,This is required for an API on top in the future 😀
+v47: Fix ContractKeeper to use permissionedKeeper,"June 19, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/721,Required for future upgrades to execute on a contract.
+indexer: 5h course into indexing and proper SQL usage for best performance,"June 18, 2023","Indexer, SQL",Done,,
+local-ic: Release general binary for all systems,"June 18, 2023","interchain-test, localjuno",Done,https://github.com/Reecepbcups/local-interchain/pull/44,
+local-ic - broad binary distribution support (filepath configs),"June 18, 2023","interchain-test, localjuno",Done,https://github.com/Reecepbcups/local-interchain/pull/43,
+local-ic: Validation & better new command handling for inputs,"June 18, 2023","interchain-test, localjuno",Done,https://github.com/Reecepbcups/local-interchain/pull/42,
+localic - server router rewrite,"June 18, 2023","interchain-test, localjuno",Done,https://github.com/Reecepbcups/local-interchain/pull/41,
+Packet Forward Middlware UI,"June 17, 2023","Juno, PFM, WebApp",Done,https://github.com/Reecepbcups/ibc-anywhere-webapp/pull/20,https://twitter.com/Reecepbcups_/status/1670152560336928770
+[v47] IBC v7.1.0 http://localhost upgrade + version bumps,"June 17, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/718,
+[v47] Security patches + IBC migration handler,"June 16, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/718,
+new-chain command for easy templating,"June 15, 2023","interchain-test, localjuno",Done,https://github.com/Reecepbcups/local-interchain/pull/38,
+Adds all stargate queries for smart contracts,"June 15, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/715,"may be a better way to do with reflection, but I am not aware of it"
+Contract bypass Min Fee example,"June 14, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/712,"Despite it not passing, we may want in the future. Rough draft idea (not tested) to show how proposal 306 would be implimented if approved in the future / for another bit of infra"
+local-ic command + auto complete,"June 14, 2023","interchain-test, localjuno",Done,https://github.com/Reecepbcups/local-interchain/pull/37,
+"v47 - Migrated TF, Mint, GlobalFee fully","June 13, 2023",,Done,"https://github.com/CosmosContracts/juno/pull/707
+https://github.com/CosmosContracts/juno/pull/706
+https://github.com/CosmosContracts/juno/pull/708","Just waiting on GlobalFee, getting weird storeKey error depsite no module name change."
+Mike at Croncats on Juno Features,"June 6, 2023","Juno, Meeting",Done,,
+v16: Migrated/Re-wrote GlobalFee to new params,"June 5, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/708,
+v16: Migrate Mint to v1gov params,"June 5, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/707,
+v16: Migrate TokenFactory to v1gov params,"June 5, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/706,
+v16: Migrate FeeShare to v1gov params,"June 5, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/705,
+v16: Finish cleanup branch for namespace + some nits from review call for SDK v47,"June 5, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/692,
+Upgrade: v15 - live in 5m 10s,"June 5, 2023","Juno, Upgrade",Done,,
+Local-IC: Move chains to their own folder vs in configs,"June 3, 2023","CosmWasm, localjuno",Done,https://github.com/Reecepbcups/local-interchain/pull/32,https://twitter.com/Reecepbcups_/status/1665223378632953857?s=20
+LocalIC: Make for Windows + add a base chain example,"June 3, 2023","Juno, localjuno",Done,https://github.com/Reecepbcups/local-interchain/commit/ad5297a952c663d1ff39c4d1f3aa433b9bf38440,
+Minecraft: Porting my MC Integration → Juno chain + PvP betting Server,"June 3, 2023","Juno, Minecraft",In progress,"Plugin: https://github.com/Reecepbcups/juno-minecraft-integration
+Server usage: https://github.com/Reecepbcups/juno-pvp-server",
+LocalIC: Use the Install dir with go flags vs force home use,"June 3, 2023","interchain-test, localjuno",Done,https://github.com/Reecepbcups/local-interchain/pull/31,
+"LocalIc: Easier UX, Cleanup env variables, added /info endpoint","June 2, 2023","interchain-test, localjuno",Done,https://github.com/Reecepbcups/local-interchain/compare/c16c585a0d8e2d595ae0e7517594cbc991943d0e...72cb4b68aee6dad94d4fdf515bbe3e274b417256,
+Proposal 297,"June 2, 2023","Governance, Juno",Done,"https://www.mintscan.io/juno/proposals/297
+
+- https://github.com/cosmos/chain-registry/pull/2256
+- https://github.com/cosmostation/chainlist/pull/608
+- https://github.com/chainapsis/keplr-wallet",Tested with https://github.com/Reecepbcups/cosmos-proposal-maker/commit/05ab06a39ecafd8c3defcad111c00246e0ca3276
+LocalIC: Remove testing.T and allow for compiling to binary,"June 1, 2023",localjuno,Done,https://github.com/Reecepbcups/local-interchain/pull/28,Req from Jack
+LocalIC: Base DAODAO launcher + StoreCode cache,"June 1, 2023","daodao, localjuno",Done,https://github.com/Reecepbcups/local-interchain/pull/24,
+LocalIC: Working on getting DAODAO setup,"May 31, 2023","daodao, localjuno",In progress,https://github.com/Reecepbcups/local-interchain/pull/24,"Not really any documentation on how to do this, all seems out of date. Prob need to ask Noah if he has a script or JS which helps."
+LocalIC: Added startup commands to genesis,"May 31, 2023",localjuno,Done,https://github.com/Reecepbcups/local-interchain/pull/22,"On startup, maybe a dev wants to auto load their contracts & configure. This allows that for faster startup"
+LocalIC: IBC connect 1 chain to multiple,"May 31, 2023",localjuno,Done,https://github.com/Reecepbcups/local-interchain/pull/20,
+LocalIC: Runtime execution of Txs & Queries via REST API,"May 31, 2023",localjuno,Done,https://github.com/Reecepbcups/local-interchain/pull/18,🔥🔥🔥🔥🔥🔥
+LocalIC: Adds IBC logs on start of nodes,"May 31, 2023",localjuno,Done,https://github.com/Reecepbcups/local-interchain/pull/16,
+LocalIC: Cleaner runtime + adds genesis keys to nodes,"May 31, 2023",localjuno,Done,https://github.com/Reecepbcups/local-interchain/pull/15,
+POC: Ante FeeBypass for new accounts handler,"May 30, 2023",Juno,In progress,not pushed up yet. Will be useful for DAODAO & Juno Juicer. Will build module x/FeeBypass in the future,
+LocalIC - Switch between configs,"May 27, 2023",localjuno,Done,https://github.com/Reecepbcups/local-interchain/pull/11,Using CHAIN_CONFIG=2_chains.json make run you can call other configs. Useful for multiple networks
+LocalInterchain - cleanup & configs,"May 27, 2023",localjuno,Done,https://github.com/Reecepbcups/local-interchain/pull/10,"Better sorting of actions, multiple configs, Specify custom encoding, "
+"LocalInterchain - config, Json, and IBC relaying (No code)","May 27, 2023","interchain-test, localjuno",Done,https://github.com/Reecepbcups/local-interchain,"Config defaults, JSON env variables, and IBC relaying (optional) for any chain / multi chain setup"
+Coordinate v15-alpha.1 & 2 on testnet,"May 26, 2023",Upgrade,Done,Uni-6,
+[v16] Migrating x/params → per module,"May 25, 2023",Juno,In progress,https://github.com/CosmosContracts/juno/pull/698,
+Tech Roundtable #2 Call,"May 25, 2023",Call,Done,Twitter space,
+CosmosDefi - Cosmwasm + Juno live,"May 24, 2023",Youtube,Done,https://www.youtube.com/live/OB_Kb7vHAnc?feature=share,
+Renamed all v15/v16 namespaces. Prop for v15-a1,"May 24, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/693,"Minor patch requires state breaking, so bumped all versions, PRs, and ICtest references"
+[v15] Cleanup & improvements,"May 23, 2023",Juno,In progress,https://github.com/CosmosContracts/juno/pull/692,
+Daniel (fortytwo project) call,"May 23, 2023",Meeting,Done,,
+Rhino Stake Call (CosmosCache),"May 23, 2023",Meeting,Done,,
+Add param change to our legacy Token-Factory fork,"May 23, 2023","Juno, TokenFactory",Done,https://github.com/CosmosContracts/token-factory/pull/15,
+[v14.2] Upgrade Handler + TF Param changes,"May 23, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/691,
+[v15] PFM e2e ictest,"May 22, 2023","Juno, interchain-test",Done,https://github.com/CosmosContracts/juno/pull/689,
+[v15] IBC-Hook e2e ictest,"May 22, 2023","Juno, interchain-test",Done,https://github.com/CosmosContracts/juno/pull/690,
+Call with Jake,"May 22, 2023",Meeting,Done,,
+[v14] Version patch,"May 21, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/685,Will cordinate with Uni & mainnet vals here soon
+ibc-go EnableFeeChannel Requests,"May 20, 2023","IBC, issue",Done,https://github.com/cosmos/ibc-go/issues/3622,"Waiting on teams feedback, will implement if they are interested in adding"
+[v15] x/IBCFee ictest,"May 20, 2023","Juno, interchain-test",Blocked,https://github.com/CosmosContracts/juno/pull/684,Current channel is not opening up properly. May HAVE to do an upgrade to enable channels to do fees? kinda hard to test then…
+[v47] Use upstream features + IBCFee enable all ics20,"May 19, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/683,
+"[v47] Personal Review, Cleanup, Less duplication, Bump versions","May 19, 2023","Juno, interchain-test",Done,https://github.com/CosmosContracts/juno/compare/279a6a4ff63c4e8f9b0ab63de8c7ff51349d243b...9cea11c42c85bec15a76a4ff25bed2eeed88e8da,Need to upstream ModifyGenesis to ictest main branch. Wanted to review before monday group call
+[v47] Move min commission from ante → x/staking + tested manually.,"May 18, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/646/commits/4af8731c6ee2a4f5a16630071b8a9c74b51cc1bf,Also added it to the upgrade handler as 0.05
+[meeting] SparkIBC,"May 18, 2023",Meeting,Done,,
+[cc] Added websocket support to my Juno CosmosCache node,"May 18, 2023",CosmosCache,Done,,
+[v47] Added wasm08 client for ComposableFinance,"May 17, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/680,"May not be off the right commit, but a step in the right direction as SLove finish up final work on it"
+[meeting] SG-1 with CosmosCache v0.0.10,"May 17, 2023","Infra, Meeting",Done,,
+[ictest] Add PFM e2e test for v47,"May 17, 2023","Juno, interchain-test",Done,https://github.com/CosmosContracts/juno/pull/679,Waiting on v47 upgrade branch to merge before getting this in
+"[v47] Finished v47 base ","May 16, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/676,"Fixed IBC issue (PFM + IBCFees not playing nicely, Relay did not auto relay. Manual Flush)"
+[ictest] LocalJuno,"May 16, 2023",interchain-test,In progress,https://github.com/CosmosContracts/juno/pull/678,
+[meeting] DoubleTop,"May 15, 2023",Meeting,Done,,https://doubletop.io/
+Mock cosmos blockchain for web2 dev onboarding,"May 15, 2023","Ecosystem, Scripts",Done,https://github.com/Reecepbcups/mock-cosmos-blockchain,
+"[v47] Fix ictest, add post handler, UpgradeHandler, coinbase Rosetta,  ","May 12, 2023",Juno,Done,https://github.com/CosmosContracts/juno/compare/1c3bac7e77427dd57270ad9107127f151f3131bc...c2465cc233fa40a7a8c71e5296d791e6e3ba9ca8,
+[ictest] Add v47 features for Juno gov usage & larger Txs,"May 12, 2023",interchain-test,In progress,https://github.com/strangelove-ventures/interchaintest/pull/565,
+"[v47] Cleanup app to be more v47 like (gov deposit, remove subspaces, fix globalfee params, rouggh upgrade handler)","May 11, 2023",Juno,Done,https://github.com/CosmosContracts/juno/compare/62c7e74ce23de80fd916443c8f235da7aee5514c...c5c5faf9fb9e426b7841883d50ca6cca244782f1,
+"[v47] Fixes all go test wow, tuff","May 11, 2023",Testing,Done,https://github.com/CosmosContracts/juno/pull/646/commits/14cf29311d80a3e9ff1049228cb8c1765994fa6a,
+"nRide (Juno p2p Uber) ","May 11, 2023",Meeting,Done,,
+"[v47] Merged my other test & feature branches (PRs tagged with [v15]). Upgraded ICtest to v7 (from v4), fixed a bunch of failed test","May 10, 2023",Juno,Done,https://github.com/CosmosContracts/juno/tree/47-upgrade,Commit 623074dc94 to ed74b32
+ictest: migrating Unity contract test into Juno repo,"May 10, 2023","Juno, interchain-test",Done,https://github.com/CosmosContracts/juno/pull/669,
+"[test] Finish Basic, CW20, and native ictest tokenfactory-contracts","May 9, 2023",,Done,https://github.com/CosmosContracts/tokenfactory-contracts/pull/7,
+AbstractSDK Call w/ Adair,"May 9, 2023",Meeting,Done,,
+[call] Posthuman validator (tech),"May 8, 2023",Meeting,Done,,
+[actions] Learning GH actions better (w/ course),"May 6, 2023",CI,Done,,
+[v15] FeeShare: Allow gov admin contracts ability to self register,"May 5, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/665,
+[v15] Wrote ictest for Tokenfactory wasm bindings + transactions,"May 5, 2023","Juno, interchain-test",Done,https://github.com/CosmosContracts/juno/pull/,
+more proper migration & init for Core-1 vesting contracts,"May 5, 2023",,Blocked,https://github.com/CosmosContracts/juno/compare/50fcd5e...a35d0a08fe,
+"[v15] Bringing Tokenfactory in to main repo ","May 4, 2023","Juno, TokenFactory",Done,https://github.com/CosmosContracts/juno/pull/663,"Pulls in tokenfactory into our main codebase
+TODO:
+- Make test-contracts repo in CosmosContracts
+- Build a simple TF mint & get balance contract
+- Allow TF types query (how to do without relative imports??)
+- Reuse contract as FeeShare test"
+migrating core-1 to vesting contracts under the subDao,"May 3, 2023",Juno,Blocked,https://github.com/CosmosContracts/juno/pull/660,
+[airdrop] Mass CosmWasm NFT airdrop scripts,"May 3, 2023","Ecosystem, NFTs",In progress,https://github.com/Reecepbcups/airdrop-tools/pull/10,
+[airdrop] Stargaze scripts for Tabu NFT airdrop,"May 2, 2023",Scripts,Done,https://github.com/Reecepbcups/tabu-airdrop,Will move to main airdrop-tools repo in the future. Sends randomly owned NFTs out within ID range to list of wallets. Can send multiple random per - 1 message
+[indexer] All Juno Fees over time calculation,"May 2, 2023",Indexer,Done,https://github.com/Reecepbcups/cosmos-indexer/blob/main/scripts/get_total_fees_over_time.py,
+[call] Croncats meeting,"May 1, 2023",Meeting,Done,,
+Migrating tokenfactory-contracts to ictest,"April 30, 2023","Juno, interchain-test",Done,https://github.com/CosmosContracts/tokenfactory-contracts/pull/7,
+[indexer] Validator voting analysis for delegationsSubDao,"April 30, 2023","Indexer, Juno",Done,https://github.com/Reecepbcups/cosmos-indexer/blob/main/scripts/get_all_validators_votes.py,
+[indexer] Relaying Analysis for Delegations subDAO,"April 30, 2023","Indexer, Juno",Done,https://gist.github.com/Reecepbcups/80c84ce39ad00d8cb011a08a7a20bd1bhttps://github.com/Reecepbcups/cosmos-indexer/blob/main/scripts/get_relayers.py,Cosmos Indexer FTW
+Migration to v47. TON OF WORK HERE,"April 28, 2023",Juno,Done,https://github.com/CosmosContracts/juno/compare/d80493c2ff...d55d91a,"Took everything which was just thrown in and actually made something of it. "
+"[CI] Wasm Contracts, parallel testing after building artifacts ","April 27, 2023",,Done,https://github.com/Reecepbcups/cw-work-journal/pull/2,Going to use this to improve Juno’s main CI in the future when we add wasm testing
+[indexer] Adds TxHash for every Tx,"April 25, 2023",Indexer,Done,https://github.com/Reecepbcups/cosmos-indexer/pull/14,
+[cosmos-cache] Allow multiple threads in docker. Launch v0.0.9 w/ no redis cache,"April 24, 2023",CosmosCache,Done,https://github.com/Reecepbcups/cosmos-endpoint-cache/pull/33/commits/09943722b6c26457707e5cd68220957a991723d5,
+[v15] Increasing signed window + ictest for faster blocks,"April 24, 2023",Juno,In progress,in v15 initial PR from me,asking the team if we should do more than double
+[blog] Personal post about Juno & my future,"April 23, 2023",Writing,Done,https://medium.com/@reecepbcups/juno-my-focus-path-forward-363abd14bbf5,
+[exports] http://exports.reece.sh/juno now exports account sequences,"April 22, 2023",Scripts,Done,,Useful for airdrops / list for the most active members in tandem with an indexer
+[analytics] Juno msgs/txs since genesis,"April 22, 2023","Analytics, Indexer",Done,,https://twitter.com/reecepbcups_/status/1649643826527576064?s=46
+"[Call] PersistanceOne MeshSec., Indexer, CosmosCache, Infra","April 21, 2023",Meeting,Done,,w/ Jeroen
+[Indexer] Get all voters for specific props & output,"April 20, 2023",Indexer,In progress,https://github.com/Reecepbcups/cosmos-indexer/commit/556411484d6b33f3afde3deb4cb653af78a53acc,
+[CosmosCache] Testing new KVStore rewrite (-redis). v15 requirement,"April 19, 2023",CosmosCache,Done,https://github.com/Reecepbcups/cosmos-endpoint-cache/pull/33,Need to work on wss passthrough & events for Keplr ugh
+[v14.1.0] Patch & Publish,"April 18, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/642,
+[wasmvm] Helping Simon debug upgrading vm versions,"April 18, 2023",wasmvm,Done,https://github.com/CosmWasm/wasmvm/issues/426,
+[CosmosCache] WIP Migration to local KVStore,"April 18, 2023",CosmosCache,In progress,https://github.com/Reecepbcups/cosmos-endpoint-cache/pull/33,
+[CosmosCache] Python KVStore (local redis clone),"April 17, 2023",CosmosCache,Done,https://github.com/Reecepbcups/py_kvstore,
+JGF - Swift Call,"April 17, 2023","Call, JGF",Done,,
+[v14] Live in 6 minutes 40 seconds,"April 17, 2023",Juno,Done,,https://twitter.com/Reecepbcups_/status/1648014010627833856?s=20
+[indexer] Sync to tip constantly for notification systems,"April 16, 2023",Indexer,Done,https://github.com/Reecepbcups/cosmos-indexer/commit/a1409cb472c17438a75e90c3f624723b8dd5f44b,Can be used for notification systems now if you wanted too
+Call w/ umee/tabu,"April 15, 2023",Call,Done,,will benifit Juno holders
+Call w/ SwiftProtocol (bug),"April 15, 2023",Call,Done,,
+[indexer] Indexed all of Juno in 4.7 hours,"April 14, 2023",Indexer,Done,,Could have been faster if I was more on top of it
+[indexer] 8x increase since last night (200 blocks / second. 2630 Tx decodes per second),"April 13, 2023","Indexer, Juno",Done,,
+[indexer] Added SQL + Async (10 blocks decoded per 0.85 seconds),"April 12, 2023",Juno,In progress,https://github.com/Reecepbcups/cosmos-indexer/pull/6,
+[indexer] Lightweight decoder,"April 12, 2023","Juno, Scripts",Done,https://github.com/Reecepbcups/juno-decode,
+[PFM] Adding an easy UI for transfers,"April 11, 2023","IBC, Juno, WebApp",Done,https://github.com/Reecepbcups/juno-chain-webapp/pull/11,
+"CosmosIndexer: Add types, and convert to SQL","April 11, 2023","Juno, Scripts",In progress,https://github.com/Reecepbcups/cosmos-indexer/pull/6,Syncing currently from block 6 mil to latest to perform some stats. Data should be ~30GB total.
+Fix CI pipeline for releases,"April 10, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/,
+"[v14] Release, announcements, proposal, & coordination","April 10, 2023",Juno,Done,"https://www.mintscan.io/juno/proposals/282
+https://github.com/CosmosContracts/mainnet/pull/101",
+[call] With Josef from Swift Procol,"April 8, 2023",Call,Done,,debugging encrypted data with CosmJS & frontend
+[blocks] Reduces block times to 3s forced,"April 8, 2023",Juno,Done,https://github.com/CosmosContracts/juno/pull/637,
+Added internal TF capabilities toggling,"April 7, 2023",TokenFactory,Done,https://github.com/CosmosTokenFactory/token-factory/pull/15,
+[PRICE BOT] Added WYND support + Historicals,"April 6, 2023",Bots,Done,https://github.com/Reecepbcups/cosmos-price-bot/blob/main/wynd.py,
+"[DAO BOT] Added CW20 support ","April 6, 2023",Bots,Done,,
+[1-1] BiWeekly Jack,"April 6, 2023",Call,Recurring,,"Juno Ecosystem, really productive"
+[contract] Fund Community Pool Standalone Contract,"April 6, 2023","CosmWasm, Juno",Done,https://github.com/Reecepbcups/fund-community-pool-contract,
+"[v15] Initial Faster Block Times + Upgrade handler ","April 5, 2023",Juno,In progress,https://github.com/CosmosContracts/juno/pull/634,(x/mint modification double since we are going to half block times to 3s)
+[v15] Denom Gas Creation Fee,"April 5, 2023","Juno, TokenFactory",In progress,https://github.com/CosmosContracts/juno/pull/635,"If the denom fee is removed, then the gas fee is used. On upgrade we default to 2 million. Also uses a new repo which we will share with others"
+[juno modules webapp] Fixed TF limitation + cleanup,"April 5, 2023",WebApp,Done,https://github.com/Reecepbcups/juno-chain-webapp//compare/e4e28046665b178193d79f42e9ae078087d83628...f6e25cd98e03940a4afa45d49128503a4275d374,"Scales better, alloow user to update denoms they did not create directly, add search params for direct website linking to sections with ?page=tokenfactory for example"
+[DAO] Treasury bot for assets held,"April 5, 2023",Discord,Done,https://github.com/Reecepbcups/dao-treasury-bot,
+[indexer] Building simple python cosmos indexer,"April 4, 2023","Infra, Juno",Done,https://github.com/Reecepbcups/cosmos-indexer,may publish a stats page / API for anyone in cosmos to use and read against. + redis subscribe for others who want to read the events?
+[airdrop UI] Working on UI for airdropping factory tokens to all stakers/balances,"April 4, 2023","Juno, WebApp",In progress,https://github.com/Reecepbcups/juno-chain-webapp/pull/9,
+[cw721] Added NFT snapshot tool,"April 4, 2023","Ecosystem, NFTs",Done,https://github.com/Reecepbcups/airdrop-tools/blob/main/cw721-nfts/nft_snapshot.py,"Async queries, can do ~1,000 NFT queries every 5.3 seconds. Limited by CPU cores really."
+[tf] Getting a generic repo put together for all chains,"April 4, 2023","Ecosystem, TokenFactory",Done,https://github.com/CosmosTokenFactory/token-factory,
+"[webapp] Darkmode IBC-Anywhere re-design ","April 3, 2023",,Done,https://ibc.reece.sh,
+wasmvm: Add get default features,"April 3, 2023","CosmWasm, wasmvm",Done,https://github.com/CosmWasm/wasmvm/pull/413/files / https://github.com/CosmWasm/wasmd/pull/1316,
+[v14] Wrote medium draft for Lobo/Comms DAO,"April 3, 2023",Writing,Done,https://medium.com/@reecepbcups/7bb2c6cd8c23,
+[discord] Finished setup of developer forum channel guidelines & tags,"April 3, 2023",Discord,Done,https://discord.com/channels/816256689078403103/1092023034954649742,
+[v14-alpha.2] Tagged and released to vals,"April 3, 2023",,Done,https://github.com/CosmosContracts/juno/releases/tag/v14.0.0-alpha.2,
+"IAVL: Patch v45 SDK for archive node queries (JUNO + All cosmos chains). ","April 3, 2023","Ecosystem, Infra",Done,"https://github.com/Reecepbcups/cosmos-sdk/releases/tag/v0.45.15-archive.1
+https://github.com/Reecepbcups/cosmos-sdk/releases/tag/v0.45.15-archive.1
+https://github.com/Reecepbcups/cosmos-sdk/releases/tag/v0.45.15-archive.1",We probably need to maintain a v45.15 fork as Juno for the community with these patches
+Call w/ Design DAO (juno website),"March 31, 2023",Meeting,Done,,
+logic: migrating PeriodicVestingAccount account → Core-1 SubDAO,,Juno,Done,https://github.com/CosmosContracts/juno/compare/5c4fef563b4631e736e2146b7c7e6a4e806886cc...1d8a40ed44ba63dc77ffe0f3b520dd1169f1591d,"unbonds and sends all to Core-1 subdao, then vesting account is deleted. - other core1 members will get a new contract through the subDAO."
+juno-web: Use gas for create denom,,"Juno, WebApp",Not started,https://github.com/Reecepbcups/juno-chain-webapp/commit/2948760fe62fdf3f94b148e04e037e4c59892f89,https://juno.reece.sh - also let Larry know its ready
+[v47 / IBC] Spent all day trying to narrow down IBC relaying issue,,,Done,https://github.com/CosmosContracts/juno/pull/676,
