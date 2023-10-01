@@ -1,0 +1,191 @@
+﻿Task name,Date,Tags,Repo/PR,Notes
+"Register staking & gov Txs + queries, simplify, add e2e test template, script, example contract, and more checks","September 30, 2023",Juno,https://github.com/CosmosContracts/juno/compare/1b46f63823a3f2048fde2d7773ac2211f11fc2ff...42d829624e0787b4f45c00a1a5a4b1e565c82278,"working now, just needs a full test suite and cleanup"
+"Moved to workspace, fix start flags, abstract away required flags (ex: —node=%RPC%), remove old panics and cleanup loose ends, add setup docs & example, remove old server.json config for CLI only start args","September 28, 2023","StrangeLove, local-interchain","https://github.com/strangelove-ventures/interchaintest/pull/785/commits/824489a4d445bad75aa57ad16548374b31381a65
+
+https://github.com/strangelove-ventures/interchaintest/compare/51b4db5796360c38e8b7007fcc828d0c8078aa40...8f9b2c1335a522d63dd23b2452fcc22964844e59",
+get legacy PFM repo ready for archive. Only add issues for PFM & ICQ to motherboard from IBC-Apps,"September 26, 2023","IBC-Apps, PFM",https://github.com/cosmos/ibc-apps/pull/104/files,upstreamed issues & the last PR up (with coauthor set)
+Upstream TokenFactory helper functions from Juno,"September 26, 2023","StrangeLove, interchain-test",https://github.com/strangelove-ventures/interchaintest/compare/1f7bbd5e73d5d8e6d7710cb1b954fd42059b137c...6c2d2202e18ad63fd06cbafdf7cd9df3c8659a30,"Matches osmosis spec, useful to remove the helpers from the Juno side."
+"[rust driver] Productive Lints, Better Errors, Add status_code TxResp, doc comments, ","September 25, 2023","StrangeLove, local-interchain",https://github.com/strangelove-ventures/interchaintest/compare/ec38a6b4097bd052b792429c05dcb5b318e0cef0...d152dc188c555160b2ed0586c74e583f0598e7cc,
+code of conduct & contributing,"September 25, 2023","StrangeLove, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/797,
+[rust driver] expanding CW ease of use + relaying & test,"September 24, 2023","StrangeLove, interchain-test, local-interchain",https://github.com/strangelove-ventures/interchaintest/compare/a5f5eef5b0d99e74fac98186922d41743d4f8106...ec38a6b4097bd052b792429c05dcb5b318e0cef0,
+[rust driver] Added relayer support,"September 24, 2023","StrangeLove, interchain-test, local-interchain",https://github.com/strangelove-ventures/interchaintest/pull/785/commits/718f10993bc941c1853a7656a8b7275b95e0c288,
+sparkibc contract review,"September 23, 2023",Juno,private repo,
+"Finished x/burn ","September 23, 2023",Juno,https://github.com/CosmosContracts/juno/pull/801,
+reviewed Justin’s penumbra ictest PR,"September 21, 2023","Review, StrangeLove",https://github.com/strangelove-ventures/interchaintest/pull/480,
+refactor burn contract & write e2e test for it,"September 21, 2023",Juno,"https://github.com/dimiandre/cw-testburn/pull/1/files & 
+
+https://github.com/CosmosContracts/juno/compare/c08d04d715eaf0a5e137e892fca72a425ef86f9f...5b38d672a0e0df698b882e82c9d3d4a423189612",
+"Upload-Type for CW contracts, better error handling, more test, get_files, more queries (name, container, hgome_dir, height, genesis_file, ChainConfig), recover-key, overwrite-genesis, add-full-node","September 20, 2023","StrangeLove, interchain-test, local-interchain",https://github.com/strangelove-ventures/interchaintest/compare/4a1611c8c98873a5d4719ed6ab94dccf8788ac18...a5f5eef5b0d99e74fac98186922d41743d4f8106,Have already had someone reach out about it (https://github.com/Reecepbcups/interchaintest-rust-example)
+"rust ictest: fix paths, setup testing ci, add executing contracts, better Results<> instead of panics","September 19, 2023","StrangeLove, interchain-test, local-interchain",https://github.com/strangelove-ventures/interchaintest/compare/1a8ab94c7e6d90869e236a733f1a4e823f7ebe35...4a1611c8c98873a5d4719ed6ab94dccf8788ac18,
+Adds a purely rust based example and CI for testing a contract repo,"September 19, 2023","StrangeLove, interchain-test, local-interchain",https://github.com/Reecepbcups/interchaintest-rust-example,
+Update TokenFactory contracts to new bindings per v17,"September 19, 2023","Juno, TokenFactory",https://github.com/CosmosContracts/tokenfactory-contracts/pull/17,CI works now! :D and also compatible with osmosis
+"[v18] base branch. cosmwasm 1.4, increased gov desc limit now in the main code base","September 19, 2023",Juno,,
+Use 127.0.0.1 instead of http://localhost (remove possible ipv6 issues),"September 18, 2023","StrangeLove, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/790,
+v17 upgrade live in ~10 minutes,"September 18, 2023","Juno, Upgrade",,
+local-ic: rust client cont.,"September 18, 2023","StrangeLove, interchain-test, local-interchain",https://github.com/strangelove-ventures/interchaintest/compare/2bbbc926dc978c440b4cd29c1dd14a528aa7a698..1a8ab94c7e6d90869e236a733f1a4e823f7ebe35,
+local-interchain: Rust Client,"September 15, 2023","StrangeLove, interchain-test, local-interchain",https://github.com/strangelove-ventures/interchaintest/pull/785,"basic working for now, expanding on tonight / tomorrow to add actual functionality"
+Making test setup less verbose for Relayers,"September 14, 2023","StrangeLove, interchain-test",https://github.com/strangelove-ventures/interchaintest/compare/b3f0c21c4cd37187d5612912751712c97ba5cf17...4fa05a6604564832bf8085d1ea17b77484b5477d,more abstractions
+Reviewing old PRs & bumping up to date,"September 13, 2023","StrangeLove, interchain-test","https://github.com/strangelove-ventures/interchaintest/pull/741
+https://github.com/strangelove-ventures/interchaintest/pull/657
+https://github.com/strangelove-ventures/interchaintest/pull/389",
+local-ic: CI test with Python,"September 12, 2023","StrangeLove, interchain-test, local-interchain",https://github.com/strangelove-ventures/interchaintest/pull/775,contract↔contract IBC Txs and api assertions working as expected :D test runs just fine and is cached heavily.
+Simplify ictest verbosity for setup,"September 11, 2023","StrangeLove, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/773,Need to add relayers? and expand on other features we have for Juno & persistanceOne
+Add more ictest checks,"September 11, 2023","StrangeLove, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/772,blockers: need an SDK v50 binary for wasm & proposal testing
+v17 upgrade + release video for Joel,"September 11, 2023","Juno, Upgrade",https://dev.mintscan.io/juno/proposals/317,live on Sept 18th 1600UTC
+Relayer: Add ability to fetch a specific chains path only,"September 10, 2023","Relayer, StrangeLove",https://github.com/cosmos/relayer/pull/1291,Useful for relayers who have a lot of chain configs.
+FeeShare: Allow AUTHZ Executes to count to feeshare payouts,"September 10, 2023",Juno,https://github.com/CosmosContracts/juno/pull/833,
+ictest: Resolve Functional option nil issuue,"September 10, 2023","StrangeLove, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/766/commits/9841947e5bfa754450912f849d1de3602f885754,
+Adopt the function options pattern for relayer configuration,"September 9, 2023","StrangeLove, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/766,"Some nits I don’t like, but could be positive for future development (design pattern limitations)"
+Get binary build information & dependencies,"September 8, 2023","StrangeLove, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/760,
+Remove `UsingNewGenesisCommand` config in favor of a runtime check,"September 8, 2023","StrangeLove, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/759,"Now developers can keep the same chain config instead, and use IsAboveSDK47() to run logic they need to match for custom test."
+Migrate Chain owned subdaos → Gov module (from distr),"September 7, 2023",Juno,https://github.com/CosmosContracts/juno/pull/831,in upcoming v17 upgrade
+v16.0.2 patch for vals and node ops,"September 7, 2023","Juno, Upgrade",https://github.com/CosmosContracts/juno/releases/tag/v16.0.2,
+backport local-ic fix to v7 branch,"September 6, 2023","StrangeLove, interchain-test, local-interchain",https://github.com/strangelove-ventures/interchaintest/pull/746,
+testnet: push out IAVL patch for v17,"September 6, 2023",Juno,https://github.com/CosmosContracts/juno/releases/tag/v17.0.0-alpha.2,"keplr was having node crashes. backported to v16 as well
+https://github.com/CosmosContracts/juno/pull/827"
+ExportState test (45 & 47) using new documents instead of stdout,"September 6, 2023","StrangeLove, interchain-test",https://github.com/strangelove-ventures/interchaintest/compare/52a14e4b70c3689cf8f8b9d79cc0c3c074b9b1b6...1fb4345e8bc72b1debe0ddab7cc1250a7a281926,
+backport of Mattverse’s iavl patch to v16 & 17,"September 6, 2023",Juno,https://github.com/CosmosContracts/juno/pull/827,running on my Uni validator & mainnet rpc
+Cleaner StateExports for SDK 47+ chains,"September 5, 2023","StrangeLove, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/740,without this stdout + stderr are returned. Via the document its cleaner to just read and return to the user directly.
+add a HasCommand function for a chains binary,"September 5, 2023","StrangeLove, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/739,
+local-ic: Update to SDK v50 & add build CI,"September 5, 2023","StrangeLove, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/737,
+SDK 47+ unsafe-reset w/ backwards compatibility,"September 5, 2023","StrangeLove, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/736,
+"Renamed module to cw-hooks, added gov hooks template","September 5, 2023",Juno,https://github.com/CosmosContracts/juno/commit/e0985a812d076e6f8e0515fd1ad79dfb18b32c40,
+NEW: Staking hooks module,"September 4, 2023",Juno,https://github.com/CosmosContracts/juno/pull/825,"Allows for contracts to watch events and perform actions on delegation changes, validator changes, and unbondings."
+contract staking hooks example (WIP),"September 4, 2023","CosmWasm, Juno",https://github.com/Reecepbcups/cw-juno-staking-hooks-example,"Next upgrade will add staking hooks, similar design to the clock module. Except it will be permissionless."
+uni standalone upgrade,"September 4, 2023",Juno,https://github.com/CosmosContracts/juno/pull/821,"uni-a we need more tokens for testing, so adding them to my account for devs & module testing"
+v18 base upgrade branch,"September 2, 2023",Juno,https://github.com/CosmosContracts/juno/pull/818,
+call with Highlander (v17 snippets),"August 31, 2023","Juno, Meeting",,
+Busy day of many little things,"August 31, 2023",Juno,"Add BondDenom to Ante for Joel, notif Keplr & mintscan teams on gov issues, begin work on v17 upgrade article and planning, solve testnet issue halt (due to vote power misbalance), discuss some topics with Joel, Reported wasmvm crashing issue due to 1.3 + prometheus, ",
+Juno tech roundtable #4,"August 31, 2023","Call, Juno",https://twitter.com/JunoNetwork/status/1697276853168324722?s=20,"v16/17, LocalInterchain, Future dev plans"
+call with Joel,"August 29, 2023",Meeting,"Minor ante fix for gentxs, explaining SDK kvstore, proto types, base types setup, TODO for Txs and first query for feepay module",
+"v17: tagged, tested, merged, prop, coordination, testnet","August 28, 2023",Upgrade,https://testnet.mintscan.io/juno-testnet/proposals/34 && https://github.com/CosmosContracts/juno/releases/tag/v17.0.0-alpha.1,
+call: redesign feeprepay ante w/ Joel & pull out deduct fee ante to edit directly for the module,"August 25, 2023",Meeting,,
+writing discord bot to auto delete / block orai scams,"August 24, 2023",Juno,keeping private so they don’t know the terms I am using,
+prettier fee failure error (many devs have been confused),"August 24, 2023",Juno,https://github.com/CosmosContracts/juno/pull/809,
+"x/clock: Query all Params, save ContractGasLimit to Gov Params","August 23, 2023",Juno,https://github.com/CosmosContracts/juno/pull/797/commits/83d51d2dba40ca73bfd82c56c4a77ecb6075bf8f,
+"call with Joel - FeePrepay design, POC, and stages for completion","August 23, 2023","Juno, Meeting",https://github.com/CosmosContracts/juno/pull/808,
+"Adding native Liquid Staking module (SDK v47) to Juno ","August 23, 2023",Juno,https://github.com/CosmosContracts/juno/pull/807,Is going to require a fork to wasmd and ibc-go. also proto namespace is new and will break proto unles they are good with undoing that? pupmos mentioned something about it.
+finalized v17 (incl. TF binding changes),"August 22, 2023",Juno,,
+"spent 3 hours debugging subMsgs for DAODAO + Tokenfactory. ","August 22, 2023","Juno, TokenFactory",https://github.com/CosmosContracts/juno/pull/805,"Moving to stargate msgs and queries in the future will remove this sort of issue. "
+toggle failed logging via env variable,"August 21, 2023","Juno, StrangeLove, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/718,usedful in juno as well as the new tail logging I found
+ictest: Remove gas adjustment override in chainspec (ekez had issues with),"August 21, 2023","StrangeLove, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/717,
+Base of a JunoBurn module with respect to CW Bank::Burn and our x/mint module,"August 20, 2023",Juno,https://github.com/CosmosContracts/juno/pull/801,
+Add 1bn gas limit to each contract’s end block execute,"August 20, 2023",Juno,https://github.com/CosmosContracts/juno/pull/797/commits/95fbfa5b303388b2e776def6239fa7098d6faa71,
+"junocraft: Add 0.01% tax to battles, 2 new arenas, fix redis TTL bug","August 19, 2023","Juno, Minecraft, WebApp","Taxes in webapp: https://github.com/Reecepbcups/cosmos-minecraft-integration/commit/2da33bacc71e13392c203e34a62e0cf9d600079b
+Variable Bets: https://github.com/Reecepbcups/cosmos-duels/commit/4dbbed92f27a86fcba086bb44c1fc8bb1487d427",
+"uni/mainnet: tried to get up a prop, but gov/v1 broken on both ping and mintscan","August 19, 2023",Juno,https://github.com/ping-pub/explorer/pull/494,😟
+globalfee: Found bug which would not allow Gov to update params from v16,"August 17, 2023",Juno,https://github.com/CosmosContracts/juno/pull/799,pesky msg server
+x/clock: Add Spec & Integration guide,"August 17, 2023",Juno,https://github.com/CosmosContracts/juno/pull/797/commits/18d18ec2efa1f2cc6ecba5ac8dd626018cce45cd,
+x/clock: Fix MsgServer & ictest,"August 17, 2023",Juno,https://github.com/CosmosContracts/juno/compare/c31801717e89b7ad15fdb3558e8d0ee97bfe8c25...e3bf4a6e5e18af6d12710e27be290f97971124c5,
+Launched JunoCraft to Mainnet,"August 17, 2023","Juno, Minecraft",https://twitter.com/JunoCommsDao/status/1692283820555243613?s=20,
+"x/clock: Cleanup from yesterday, Add go unit test","August 17, 2023",Juno,https://github.com/CosmosContracts/juno/compare/32a9e81aa0707b29bedef95f6d6d70a653367b3e...c31801717e89b7ad15fdb3558e8d0ee97bfe8c25,just need to do e2e + spec sheet
+Began work on the x/clock module for smart contracts,"August 16, 2023",Juno,https://github.com/CosmosContracts/juno/pull/797,
+call with Joel: fix his Txs broadcast & discuss Fee-Prepay module,"August 16, 2023",Meeting,,
+"junocraft: Only 1 pending Signer per wallet, fix expiring Txs to run cleanup logic","August 16, 2023","Juno, Minecraft","https://github.com/Reecepbcups/cosmos-duels/commit/1f3510c4b6f8480470296b73c7d39de58b8381f2
+
+https://github.com/Reecepbcups/cosmos-minecraft-integration/commit/8c86efd7f05773d335b120a813da9c61ebd1d1d3","In doing so, if the user wants to change their repo it makes it easier to instead of waiting the 60s (clearpending → expires all Txs for the user, expire logic runs removing them from the pendingTxs for said arena, they can then join a new arena to sign)
+
+Else you could spam req. into arenas and ensure no one can get in for 60 seconds"
+add more bypass fees & gas for GlobalFee,"August 15, 2023",Juno,https://github.com/CosmosContracts/juno/pull/795,
+Initial issue for migrating from x/params,"August 14, 2023","ICQ, Juno, PFM",https://github.com/cosmos/ibc-apps/issues/87,"x/params is deprecated, we need to move it out (tasked Joel) but PFM & ICQ still require. Need to migrate"
+junocraft: Fix wallet sends for normal addresses in game,"August 14, 2023","Juno, Minecraft",https://github.com/Reecepbcups/cosmos-minecraft-integration/commit/41631bed5adbd062fbdad0134001f16e8d74b3f2,before only players worked
+3s block times + cleaner forced apply,"August 13, 2023",Juno,https://github.com/CosmosContracts/juno/pull/789,
+junocraft: show guide button & auto refresh timer for Txs,"August 13, 2023","Juno, Minecraft, WebApp","https://github.com/Reecepbcups/cosmos-minecraft-integration/commit/5620ec2074786545ebbb02541d7fb0fb1323b6e9
+
+https://github.com/Reecepbcups/cosmos-minecraft-integration/commit/e07dac3704ff2d05f20124d6b2efd8fb7c992d96",
+Moved repo CI to use an archive instead of ghcr for docker build & testing,"August 12, 2023","CI, Juno, Testing",https://github.com/CosmosContracts/juno/pull/788,"Faster testing on the build by ~30%, allows outside PRs to run the ictest suite without a PAT"
+junocraft: announce on start & winners on death,"August 12, 2023","Juno, Minecraft",https://github.com/Reecepbcups/cosmos-duels/commit/927675fc0785e185d76666f7342a839425e9d7e2,Needed for when I add support to bet outside of the 2 duelers
+"junocraft: added a parkour course (no rewards, just a timetrial)","August 12, 2023","Juno, Minecraft",https://github.com/Reecepbcups/cosmossdk-minecraft-pvp-server/commit/8a172960e0ed5b3857f6b76c1b5cbc0334b3d105,
+junocraft: Duels UI shows your JUNO balance and auto refreshes the Arenas list,"August 12, 2023","Juno, Minecraft","https://github.com/Reecepbcups/cosmossdk-minecraft-pvp-server/commit/a4f21cd8924ac9e047e3e0e90035375b4548ed06
+
+https://github.com/Reecepbcups/cosmos-duels/commit/48a6e0577d3647653babc892e468bcdc59cfa53f
+
+https://github.com/Reecepbcups/cosmos-duels/commit/90709a81695bc865b587fa8135a4df3fce89b8df",1 refresh per second for items
+"junocraft: Added NPCs for commandless usage (/spawn, duels, parkour, stats)","August 12, 2023","Juno, Minecraft",https://github.com/Reecepbcups/cosmossdk-minecraft-pvp-server/commit/be44c3777efb052c01f615b9800200c823cc9579,
+Call with Joel - Module Txs + more todo,"August 12, 2023",Meeting,,
+junocraft: Suggest chain for website,"August 11, 2023","Juno, Minecraft, WebApp",https://github.com/Reecepbcups/cosmos-minecraft-integration/commit/2f2cc299095faf4aeb0cea1f78140f9fd30562aa,
+junocraft: simpler UX (3 clicks to link account instead of 7),"August 11, 2023","Juno, Minecraft, WebApp",https://github.com/Reecepbcups/cosmos-minecraft-integration/commit/312b7260db2e02628bf5341f7711c0f70e64730d,
+Fix genesis exports for v16 & main (v17),"August 10, 2023",Juno," https://github.com/CosmosContracts/juno/pull/785",Report: https://github.com/CosmosContracts/juno/issues/778
+"x/drip: Cleanup, Regen Proto, update to v17 + upgrade handler","August 9, 2023",Juno,https://github.com/CosmosContracts/juno/compare/04e7e7a82a8cec28cb67d89152562a5ee8f29c3a...9645cb21f8c7e8df73f4cb3d2203130d6cae66af,"Cleanup nits and old comments, remove unused methods / instances, regen proto, update from v16 → v17"
+x/drip: finished module & test (go + e2e),"August 9, 2023","Juno, Testing",https://github.com/CosmosContracts/juno/compare/6306e2f840bd0cefe71af916f40f45a43ddc5def...91bc94e1b60c3d311cbd259e938dc087df874939,"Fix validation, test MsgServer, test Codec register, test QueryClient, cleanup, register amino for AUTHZ usage, write an e2e test using InterchainTest"
+Impl. pfm patch for NPE’s leaving packets to become stuck,"August 8, 2023",Juno,https://github.com/CosmosContracts/juno/pull/783,
+junocraft - properly refund if the event ends early & cleanup,"August 8, 2023","Juno, Minecraft",https://github.com/Reecepbcups/cosmos-duels/commit/7d3952310b17c001d801d36fb081fe7d7283e7c9,"expire pending Txs, cleanup players, and return funds back to accounts early. Send back to previous location (ex: spawn)"
+SDk v47 upgrade successful (Juno v16) in 15m 12s,"August 7, 2023","Juno, Upgrade",https://twitter.com/Reecepbcups_/status/1688583187822153729?s=20,Devs: Ensure to update your CosmJS package to 0.31 to have SDK47/TM37 support w/ wallets
+junocraft: Add Main Menu & Arenas UI for users,"August 6, 2023","Juno, Minecraft",https://github.com/Reecepbcups/cosmos-duels/commit/244101dccafbbbd763881f4b6cdda37b1628bc75,
+junocraft - move to use https + Add faucet page,"August 6, 2023","Juno, Minecraft, WebApp",https://github.com/Reecepbcups/cosmos-minecraft-integration/commit/0053fa3b1560e8ad4e11d347b6e3feb658252933,Figured since it is on uni-6 to use my faucet API (Still need to bulk payments together incase multiple are sent at once due to usage)
+junocraft website refactor: dark mode + proper design,"August 5, 2023","Juno, WebApp",https://github.com/Reecepbcups/cosmos-minecraft-integration/commit/b6f0d86228c68e0f1840c09b14a5d1a3b951816a,
+Adds auth webapp for Juno → Minecraft ID linking,"August 5, 2023","Juno, Minecraft, WebApp",https://github.com/Reecepbcups/cosmos-minecraft-integration/commit/c5bfe2f8f84db125517aefbaeeac5e39cb472cb9,Also required tweaking to the main API.
+Plugin: Link Minecraft ID → Juno Wallet in game,"August 5, 2023","Juno, Minecraft",https://github.com/Reecepbcups/cosmos-minecraft-integration/commit/37b793581aa269a3a9359910b942dfe8e54c78c6,
+Video: Minecraft CosmosSDK Duels demo,"August 4, 2023","Juno, Minecraft, Video",https://youtu.be/mRm6DpuUn_k,
+Moving http://juno-rpc.reece.sh & http://juno-api.reece.sh to cheaper & faster infra,"August 4, 2023","Infra, Juno",,
+Launch Minecraft PVP betting -> juno’s testnet,"August 3, 2023","Juno, Minecraft",https://twitter.com/reecepbcups_/status/1687216641229135872?s=46,"API, Integration, MC server, duels, betting system (1 token), and bulk repayments (2 tokens for a win)"
+bulk API request for DAO controlled server payments / interactions,"August 3, 2023",Minecraft,https://github.com/Reecepbcups/cosmos-minecraft-integration/pull/1,
+TFContracts - no token_factory feat requirement to upload (for test w/ other networks),"August 3, 2023",TokenFactory,https://github.com/CosmosContracts/tokenfactory-contracts/releases/tag/v0.0.4,Removed token_factory requirement from tokenbindings so rust testing is easier for DAODAO
+Fix so e2e CI can run for outside PRs in github,"August 3, 2023","CI, Juno",https://github.com/CosmosContracts/juno/pull/775,
+Allow TF contracts to be uploaded to non TF chains for testing,"August 3, 2023","Juno, TokenFactory",https://github.com/CosmosContracts/token-bindings/releases/tag/v0.10.3,DAODAO req so they can also do it on osmosis & integration testing
+call with Joel,"August 2, 2023",Meeting,"How the SDK & Modules work, keepers, cwmodule and smart contracts basics understanding",
+cw-modules from scratch POC,"August 2, 2023",Juno,https://github.com/CosmosContracts/juno/tree/reece/cw-modules-poc,"Forgot about twasm, looking into their impl instead. Looks like we both had the same design layout"
+Refactor e2e upgrades,"August 1, 2023","Juno, Testing",https://github.com/CosmosContracts/juno/pull/768,"Abstracts away the requirements for testing an upgrade (Voting, Proposal, Upgrading) so we can focus more on actual testing of state logic"
+"v17 base Upgrade (namespace, ictest patches, wasmd 41, wasmvm 1.3)","August 1, 2023",Juno,https://github.com/CosmosContracts/juno/pull/767,
+v16 upgrade proposal & instructions to validators,"August 1, 2023",Upgrade,https://www.mintscan.io/juno/proposals/311,"Scheduled for Monday, August 7th @ 1600UTC"
+TFContracts - Fix CI to run always,"August 1, 2023",TokenFactory,https://github.com/CosmosContracts/tokenfactory-contracts/pull/13,"new namespace, run ictest on PR"
+TokenFactory middleware contracts - SDK v47 migration,"August 1, 2023",TokenFactory,https://github.com/CosmosContracts/tokenfactory-contracts/pull/14,"Noah ran into some issues with testing, so using latest ICTest now (v7), CometBFT (37) and SDK (47)"
+"WIP: Mainnet Instructions v16 ","August 1, 2023",Docs,https://github.com/CosmosContracts/mainnet/pull/103,
+Call with Joel,"July 31, 2023",Meeting,"Notion work setup, Cosmos Basics (RPC, REST, CLI, Txs/Messages, Handlers), Modules (Begin/EndBlocker)",
+Juno v16 Proposal script,"July 31, 2023",Docs,https://github.com/Reecepbcups/cosmos-proposal-maker/commit/6b0369eff7768267fc365a3c9b2d09916e2113f0,
+exports-api - Fix cors + RevProxy,"July 31, 2023",Juno,https://github.com/Reecepbcups/exports-api/commit/d51b6b78905eb4e677c91b0b7cc01f48f27522e2,"API was returning *, * for origins due to app and the proxy handling it"
+latest TF middleware contracts v0.0.3,"July 31, 2023",TokenFactory,https://github.com/CosmosContracts/tokenfactory-contracts/releases/tag/v0.0.3,also released on http://crates.io for Noah
+Review noahs code + fix test for TokenFactory-Contracts,"July 29, 2023","Juno, TokenFactory",https://github.com/CosmosContracts/tokenfactory-contracts/pull/9,
+Cleanup from Strangelove’s LocalInterchain review,"July 29, 2023","StrangeLove, interchain-test, local-interchain",https://github.com/strangelove-ventures/interchaintest/pull/663,
+Temp Faucet for Testnet (W/ SDK v47 support),"July 29, 2023",Juno,"https://github.com/Reecepbcups/cosmos-faucet/commit/a3cf9b82dd6eddaf9165faebcfa81fe9ce2c770f
+
+https://faucet.reece.sh",
+Tech Roundtable #3,"July 27, 2023",Meeting,https://twitter.com/junonetwork/status/1684594019689517056?s=46,
+exports-api call w/ André,"July 24, 2023","Juno, Meeting",,
+token-bindings released to crates.io,"July 24, 2023","Juno, TokenFactory",https://github.com/CosmosContracts/token-bindings/releases/tag/v0.10.2,required for DAODAO to launch TF DAOs
+"state export api: download archive at height, cleaner endpoints for root","July 23, 2023","API, Juno",https://github.com/Dat-Andre/api_exports/pull/1,https://export-api.reece.sh
+"state export query api: get all balances, staking, etc without hitting nodes","July 22, 2023","API, Juno",https://github.com/Dat-Andre/api_exports/pull/1,"Andre volunteered to help out with it, so once he had the base layer I did a refactor here. Will be using in prod in the near future as an easy Dev API. Need to upgrade my Juno server space bleh"
+Cleanup + Publish token-bindings for Juno (per DAODAO req),"July 22, 2023","Juno, TokenFactory",https://crates.io/crates/token-bindings - v0.10.1,
+"Bot army for controlling a LARGE number of accounts on a chain, sending funds, and returning","July 20, 2023",Ecosystem,"https://github.com/Reecepbcups/chain-army
+
+https://twitter.com/Reecepbcups_/status/1682250929192460289?s=20",
+Generate TS types from new/updated proto files,"July 20, 2023","Juno, Typescipt",https://github.com/CosmosContracts/juno-ts/pull/12,
+Invictus Upgrade (v16) Draft Article for Comms DAO,"July 20, 2023",Writing,TODO: link when public,
+testnet v16 upgrade (uni-6),"July 18, 2023","Juno, Upgrade",https://twitter.com/reecepbcups_/status/1681449070844583937?s=46&t=7LhEMIHEVdKKKXVy6wxspQ,
+Cosmos Upgrade notification bot (on & BLOCKS),"July 18, 2023","Juno, Upgrade",https://github.com/Reecepbcups/blocks-notifier,
+Allow DAODAO to register contracts,"July 18, 2023",Juno,https://github.com/CosmosContracts/juno/pull/758,Next upgrade
+Use regex in 24-host instead of .Split(”/”),"July 17, 2023",IBC,https://github.com/cosmos/ibc-go/pull/4111,
+Removed Version interface from 03-connection types (legacy),"July 17, 2023",IBC,https://github.com/cosmos/ibc-go/pull/4110,
+test: x/POB e2e,"July 17, 2023",Juno,https://github.com/CosmosContracts/juno/pull/754,
+more work on the golang RPC+REST API Cache,"July 15, 2023","CosmosCache, Juno",https://github.com/Reecepbcups/cosmos-cache/compare/f6a4b0c786c3d3c6320899a257a0e56ba3ebb8e4...1100e2f4594f17d6ac8b222c01e49560c10965b1,"Better HTML replace, working on POST request (works for some Txs, then the cache kills it due to abci id issues). Need to spoof ids again but go types make that hard"
+"allow other networks (chainIds, fees, RPCs, etc) for juno.reece.sh","July 15, 2023","Juno, WebApp",https://github.com/Reecepbcups/juno-chain-webapp/pull/13,ex: Uni-6
+ci testing for wasm-client on PR,"July 15, 2023","08-wasm, IBC",https://github.com/cosmos/ibc-go/pull/4095,
+constructors to create wasm contract call json payloads,"July 15, 2023","08-wasm, IBC",https://github.com/cosmos/ibc-go/pull/4094,
+pin code to the wasmvm cache,"July 15, 2023","08-wasm, IBC",https://github.com/cosmos/ibc-go/pull/4093,
+add authority parameter to 08-wasm NewKeeper,"July 15, 2023","08-wasm, IBC",https://github.com/cosmos/ibc-go/pull/4092,
+v16 prop & directions on testnet,"July 13, 2023",Upgrade,"https://github.com/CosmosContracts/testnets/blob/reecwe/v16/uni-6/05_V16_BETA_UPRGADE.md
+
+https://testnet.mintscan.io/juno-testnet/proposals/16",
+Lluís Navarro call,"July 13, 2023",Meeting,,Tokenizing assets with NFTs / Tokens
+Upgrade: Tagged v16.0.0-alpha.1 for testnet soonTM,"July 12, 2023",Juno,https://github.com/CosmosContracts/juno/releases/tag/v16.0.0-alpha.1,
+x/POB: Lint + fix upgrade & migration for v16.,"July 12, 2023",Juno,https://github.com/CosmosContracts/juno/pull/751/commits/8367d94e96d2e3a29600109670b3552fdb44a6f7 && https://github.com/CosmosContracts/juno/pull/751/commits/19b75d7955e21037190bde72ade7e17d666a3665,Passes all CI now woo!
+"Attempeted reflection with x/POB for new DefaultGenesis, no luck","July 12, 2023",Juno,Seems to require a fork of the SDK to allow custom params for the address to be set… hmm,
+Andrew,"July 11, 2023",Meeting,,
+Atom Accelerator dao - grant,"July 11, 2023",Meeting,,
+Plus Expected Value interview,"July 11, 2023",Meeting,https://www.youtube.com/live/otbXC8LkaaA?feature=share,
+Andre | Juno queries & transparency,"July 11, 2023",Meeting,,
+Planning / getting v16 ready for testnet. Final checks,"July 10, 2023","Juno, Upgrade",,
+Local-Interchain PR upstream,"July 10, 2023",local-interchain,https://github.com/strangelove-ventures/interchaintest/pull/663,
+Cybernetics Juno Space w/ Jake,"July 8, 2023",Meeting,https://twitter.com/i/spaces/1OdJrzBgllPJX?s=20,
+"v16: Finished final needed PR, pending final review. Cleanup of all issues / tracking","July 6, 2023",Juno,,
+Upgrade wasmd to IBC v7.3.0 + wasm client,"July 6, 2023",CosmWasm,https://github.com/CosmWasm/wasmd/compare/304373e658241351a69f7ab030836220adaa2d45...59877ba5c75e762ab19e1af60c9e97ea68bbacf1,last step before testnet woo!
+Tyler at StrangeLove,"July 6, 2023",Meeting,,Infrastructure discussion
+Auto relay all config IBC paths,"July 6, 2023","interchain-test, local-interchain",https://github.com/Reecepbcups/local-interchain/pull/60,
+Use underscores instead of dashes for JSON config keys,"July 6, 2023","interchain-test, local-interchain",https://github.com/Reecepbcups/local-interchain/pull/59,"breaks tools like jq to use a - as a key, no way to easily get."
+"v16: Cleanup PFM test, fix relayer auto flush","July 5, 2023",Juno,https://github.com/CosmosContracts/juno/pull/743,
+"Ordered Regex, Favicon, better cache, cleaner .env, hidden /status RPC","July 4, 2023",CosmosCache,,Live at https://juno-node.reece.sh (no keplr support yet)
+v2 GoLang ReWrite & REST+RPC combine,"July 4, 2023",CosmosCache,https://github.com/Reecepbcups/cosmos-cache/pull/42,"WebSocket, Coingecko, AutoRestart, Stats, OPENAPI Cache, TTL res cache, RPC & API Title replace, CUSTOM HTML, Show API if possible in the RPC page by default"
+Pedro at TFM discussion,"July 3, 2023",Meeting,,
+Migrating Core-1 to cw-vesting contracts working POC + cleanup,"July 3, 2023",Juno,https://github.com/CosmosContracts/juno/pull/741,"Just need to do some e2e test, hard to though given the complex nature of vesting accounts hmm"
+Cleaner logic for transfering vesting accounts for Wolf & Core-1,"July 1, 2023",Juno,https://github.com/CosmosContracts/juno/compare/5c4fef563b4631e736e2146b7c7e6a4e806886cc...be42155a01f1b9685e648548c2f4971db355e765,
+,,,,
