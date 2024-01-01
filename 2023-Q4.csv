@@ -1,0 +1,142 @@
+﻿Task name,Date,Tags,Repo/PR,Notes
+"native core SDK command support: more queries, Txs, cleanup","December 30, 2023",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/892,
+local-interchain fix overriding uncreated configs (WIP? have not confirmed it works yet),"December 21, 2023",local-interchain,https://github.com/strangelove-ventures/interchaintest/pull/921,
+local-intercha Etheremint support,"December 21, 2023",local-interchain,https://github.com/strangelove-ventures/interchaintest/pull/921,
+GetHostPeerAddress() for external ictest/localic node syncs,"December 20, 2023",local-interchain,https://github.com/strangelove-ventures/interchaintest/pull/919,
+"learning GCP basics, got 2 testnets up with local-interchain :D","December 20, 2023","Infra, ethos",,
+Optional Authentication Key,"December 20, 2023","interchain-test, local-interchain",https://github.com/strangelove-ventures/interchaintest/pull/919,
+Faucet API,"December 20, 2023","interchain-test, local-interchain",https://github.com/strangelove-ventures/interchaintest/pull/919,
+feat: host port overrides,"December 19, 2023","interchain-test, local-interchain",https://github.com/strangelove-ventures/interchaintest/pull/917,
+chore: fix upstream 08-wasm light client documentation,"December 18, 2023",IBC,https://github.com/cosmos/ibc-go/pull/5439,
+integrating wasm light client to Juno,"December 18, 2023","IBC, Juno",https://github.com/CosmosContracts/juno/pull/921,
+IBC packet & token transfer presentation for Cosmos-Joe,"December 17, 2023","Article, IBC",https://docs.google.com/presentation/d/e/2PACX-1vS5OvE1K2diYabZWO5AfHpdPgn3P7Bsn8iiaAKDTgq8G-IQ_n-iYothNwZHrl9AbKjOun42RIXOXXO6/pub?start=false&loop=false&delayms=30000,
+CosmWasm Web Hosting (all on chain),"December 15, 2023","CosmWasm, Juno","https://github.com/Reecepbcups/cw-webhost
+
+https://github.com/CosmosContracts/juno/pull/917",
+Enable MEV frontrunning protection,"December 15, 2023",Juno,https://www.mintscan.io/juno/proposals/327,
+Mesh-Security Deep Dive,"December 14, 2023",Mesh-Security,,
+LocalIC Remove relayer file dependency,"December 14, 2023",local-interchain,https://github.com/strangelove-ventures/interchaintest/pull/908,
+Spell Check CI,"December 13, 2023",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/906,
+Spell check CI,"December 13, 2023",Juno,https://github.com/CosmosContracts/juno/pull/912,stop airdrop farmers
+Migrate AccAddressFromBech32 to use chain.Config().Bech32,"December 13, 2023",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/904,
+"FeeGrant ability, govv1 and beta1 refactor (simpler queries)","December 12, 2023",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/892,"added SDK v50 gov test, Fe"
+Debugged DAODAO x Noble ICA issue,"December 12, 2023",Noble,https://github.com/noble-assets/noble/issues/292,
+Auto PR labler,"December 12, 2023",IBC-Apps,https://github.com/cosmos/ibc-apps/pull/148,
+"v19 namespace ","December 11, 2023",Juno,https://github.com/CosmosContracts/juno/pull/906,release/v18 branch created as well for backwards functionality
+Cosmos-Registry remove stale files,"December 11, 2023",Registry,https://github.com/cosmos/chain-registry/pull/3409,
+v18.0.0 JUNO UPGRADE LFG,"December 11, 2023","Juno, Upgrade",https://medium.com/@JunoNetwork/juno-v18-epona-dcfecd7c0db4,
+"(FeeGrant, FeeGrantRevoke, test), (govv1 & v1beta1 rewrite + test)","December 9, 2023",interchain-test,"https://github.com/strangelove-ventures/interchaintest/pull/892/commits/f1c330e1f92aabfb943c8f293c1a851e89266914
+https://github.com/strangelove-ventures/interchaintest/pull/892/commits/fe405d2d2d4672a20d57330d92161ba4370dc8b6
+https://github.com/strangelove-ventures/interchaintest/pull/892/commits/03e390c17f8cc310add53a0b09ebbee4cc9c928d",
+Add TokenFactory from Juno to Chihuahua,"December 7, 2023","Ecosystem, TokenFactory",https://github.com/ChihuahuaChain/chihuahua/pull/109,
+blog: Interchaintest adds Ethermint Support,"December 7, 2023",Article,https://strange.love/blog/interchaintest-adds-ethermint-support,
+PoA v0.0.1-alpha.1 released!,"December 7, 2023",,"https://github.com/strangelove-ventures/poa/releases/tag/v0.0.1-alpha.1
+https://github.com/Reecepbcups/poa-simapp",
+get ethermint example for dymension passing,"December 5, 2023",,https://github.com/Reecepbcups/dymension_interchaintest/tree/reece/ictest,
+Ethermint backport to v6,"December 5, 2023",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/897,
+"v18.0.0 tagged, upgrade scheduled","December 4, 2023","Juno, Upgrade",https://dev.mintscan.io/juno/proposals/325,
+feat: native core SDK command support,"December 1, 2023",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/892,
+update PFM documentation,"November 29, 2023","IBC-Apps, PFM",https://github.com/cosmos/ibc-apps/pull/147,thanks stride team for the call out!
+Osmosis cached RPC + LCD & daily exports,"November 28, 2023","Ecosystem, Infra, Osmosis",https://osmosis-rpc.reece.sh/ & https://exports.reece.sh/osmosis/heights,
+Cosmos Node monitor program,"November 28, 2023","Ecosystem, Infra",https://github.com/Reecepbcups/cosmos-node-monitor,"Tenderduty may do something like this, but I am not a validator. Just compares relative to the rest of a network."
+launched stargaze cached RPC + REST + Exports,"November 28, 2023","Infra, Stargaze",https://stargaze-rpc.reece.sh/,Going to hook up to the exports API
+Exports API: support multiple chains,"November 28, 2023","Infra, WebApp",https://github.com/Reecepbcups/exports-api/pull/4,stargaze? hmm
+cosmos-state-exporter (with support for multiple nodes on 1 machine),"November 27, 2023","Ecosystem, Infra",https://github.com/Reecepbcups/cosmos-state-exporter,
+x/POA - Allow a validator to gracefully leave the set (H+2),"November 27, 2023",,https://github.com/strangelove-ventures/poa/pull/89,
+x/POA - Allow admin(s) to remove pending validators,"November 27, 2023",,https://github.com/strangelove-ventures/poa/pull/88,
+x/POA - documentation,"November 26, 2023",,https://github.com/strangelove-ventures/poa/pull/86,
+"x/POA - e2e jailing validation (5 nodes, stop 1, wait for jail)","November 26, 2023",,https://github.com/strangelove-ventures/poa/pull/84,
+x/POA - e2e authz staking Exec delegation test,"November 26, 2023",,https://github.com/strangelove-ventures/poa/pull/83,
+x/POA - Consensus power query,"November 26, 2023",,https://github.com/strangelove-ventures/poa/pull/81,
+x/POA - cleanup and lints,"November 25, 2023",,https://github.com/strangelove-ventures/poa/pull/78,getting ready for documentation
+x/POA - Lower consensus set power updates,"November 25, 2023",,https://github.com/strangelove-ventures/poa/pull/76,
+x/POA - Remove pending vals from genesis,"November 25, 2023",,https://github.com/strangelove-ventures/poa/pull/75,
+tweaks to legacy PRs / Joel’s work + reviews,"November 21, 2023",Juno,https://github.com/CosmosContracts/juno/pull/845 + https://github.com/CosmosContracts/juno/pull/875,
+fix wasmd sub messages from Burn Plugin,"November 21, 2023",Juno,https://github.com/CosmosContracts/juno/pull/892,can go live on testnet mid next week
+dummy middleware module for e2e testing,"November 20, 2023",PFM,https://github.com/cosmos/ibc-apps/pull/144,duality requierment w/ NonRefundable
+gordian: playing around with sqlite on Gordian,"November 20, 2023",Gordian,https://github.com/strangelove-ventures/gordian/tree/reece/db,
+wasmd sub message,"November 17, 2023","CosmWasm, Ecosystem",https://github.com/CosmWasm/wasmd/issues/1735,
+"local-interchain blog post ","November 16, 2023",local-interchain,,
+Refactor: tmconsensus.SignatureScheme should not have separate methods for nil prevotes and precommits,"November 15, 2023",Gordian,https://github.com/strangelove-ventures/gordian/tree/reece/refactor-nil-schemes,
+yet more wasm issues on testnet…,"November 15, 2023",Juno,https://github.com/CosmosContracts/juno/pull/887,v1800alpha3 upgrade ugh
+fix: retract v7.1.0s and fix async icq param migration,"November 15, 2023",IBC-Apps,https://github.com/cosmos/ibc-apps/pull/142,issue on my end with the original v7.1.0 tags. Migrations failed to move over :( will review where I messed up in e2e testing to validate it does not happen again in the future.
+Further x/POA safeguards for IBC,"November 13, 2023",,https://github.com/strangelove-ventures/poa/pull/71,
+tagged ibc-apps releases for x/params migrations,"November 13, 2023","ICQ, PFM","https://github.com/cosmos/ibc-apps/releases/tag/modules%2Fasync-icq%2Fv7.1.0
+https://github.com/cosmos/ibc-apps/releases/tag/middleware%2Fpacket-forward-middleware%2Fv7.1.0",
+chore: Reduce complexity of x/POA,"November 13, 2023",,https://github.com/strangelove-ventures/poa/pull/70,
+chore: remove unused Keeper argument in Async-ICQ,"November 9, 2023",ICQ,https://github.com/cosmos/ibc-apps/pull/140,oopsi doopsi
+Pigeonfall write up + patch (oct19th),"November 9, 2023",Juno,https://strange.love/blog/pigeonfall-vulnerability-report,
+added: ethermint / other denom support to interchaintest,"November 9, 2023",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/866,side quest
+POA: Limit multiple updates in a single block (30%+) test,"November 8, 2023",,https://github.com/strangelove-ventures/poa/pull/71,
+update POA to SDK v0.50.1 mainline,"November 7, 2023",,https://github.com/strangelove-ventures/poa/pull/,
+interchaintest releases,"November 7, 2023",,https://github.com/strangelove-ventures/interchaintest/releases,
+SDK v50 & ≤47 gov proposal usage,"November 7, 2023",,https://github.com/strangelove-ventures/interchaintest/pull/840,Needed for Juno’s upgrade to SDK v50 as well for the wasm client (Polkadot)
+x/POA latest versions,"November 7, 2023",,https://github.com/strangelove-ventures/poa/pull/62,gets ready for SDK v50 mainline tag
+x/params migration + msg_server,"November 6, 2023","ICQ, Juno",https://github.com/cosmos/ibc-apps/pull/136,also needed for Junos next upgrade thanks to Joels work :D (preps us for SDK v50/51)
+Deployed + coordinated ViperStrike,"November 3, 2023",,,
+Prop 320: USDC Globalfee & FeeShare prop + testing,"November 1, 2023",Juno,https://github.com/Reecepbcups/cosmos-proposal-maker/commit/44a2e5993c126cb488cdf3a69dff387b3230dee3,
+Joel - FeePay issue meet + brainstorming solution,"October 31, 2023","Juno, Meeting",https://github.com/CosmosContracts/juno/pull/874,
+x/POA testing (go + setup),"October 30, 2023",,https://github.com/strangelove-ventures/poa/pull/58,
+"x/POA - require admins for updating staking, Add Ante go testing","October 30, 2023",,https://github.com/strangelove-ventures/poa/compare/450cc2a152a06b61d167e2bb3e6c183067254970...399274a6c80a595f539826ff25ea64482774ef2a,
+x/POA - Update Params Cmd for Staking & POA + e2e testing,"October 30, 2023",,https://github.com/strangelove-ventures/poa/compare/a4492203400feaa1ef98f245c564e598faa4d381...3930a15270e0347041b3edab4a600afc60853f86,UpdateStakingParams & UpdateParams messages + e2e test
+pfm: x/params migration + msg_server,"October 26, 2023",Juno,https://github.com/cosmos/ibc-apps/pull/128,this and async-icq migrations are needed for us to remove x/params on Juno
+"tf migration - latest osmosis token bindings ","October 26, 2023",Juno,"https://github.com/CosmosContracts/tokenfactory-contracts/pull/17
+
+https://github.com/CosmosContracts/tokenfactory-contracts/releases/tag/v0.1.0",
+"PFM PigeonFall - discovery, patch, coordination, article","October 26, 2023",,https://github.com/cosmos/ibc-apps/pull/117,add to website too
+"x/poa: add commission limits (create, edit) for validators","October 25, 2023",,https://github.com/strangelove-ventures/poa/pull/52,
+x/poa: allow staking.MsgUpdateParams to only poa admins,"October 25, 2023",,https://github.com/strangelove-ventures/poa/pull/53,
+move off self hosted runners,"October 25, 2023",,https://github.com/strangelove-ventures/interchaintest/pull/845,K8 on those boxes messes with the network. ideally we stay on std runners
+Horocrux COC and Contributing files,"October 24, 2023",,https://github.com/strangelove-ventures/horcrux/pull/208,also fixed test :)
+fixed noble simapp import w/ Dan,"October 24, 2023",Noble,https://github.com/noble-assets/fiattokenfactory/pull/2,
+v18: 3 new modules + many features tagged & released to vals,"October 24, 2023","Juno, Upgrade",https://github.com/CosmosContracts/juno/releases/tag/v18.0.0-alpha.1,
+x/POA remove validator signing after 2 beginBlocks,"October 24, 2023",,https://github.com/strangelove-ventures/poa/pull/43,
+"x/POA: cleaned structure, refactored msgServer, fully working Create,Remove, and Set with validation","October 21, 2023",,https://github.com/strangelove-ventures/poa/pull/34,
+x/POA - create validator wrapper,"October 20, 2023",,https://github.com/strangelove-ventures/poa/pull/34,
+x/POA bare bones,"October 19, 2023",,https://github.com/strangelove-ventures/poa/pull/24,
+"x/POA - Docker support, ictest, POA set-power test","October 19, 2023",,,
+x/POA  - removing validator functionality,"October 19, 2023",,,
+x/POA module,"October 18, 2023",,local only rn,Working on the base spec for a POA module that wraps x/staking for backwards compatability
+Python driver: get it up to date with the Rust driver for CI,"October 18, 2023",interchain-test,https://github.com/strangelove-ventures/interchaintest/compare/2b88d941cfe2130c6190a073451d508514c7cdbf...95166c15381f6c9aacdd32133ac4eea7bf1011d4,"This needs to work before tagging, nothing to major"
+"adding ibc-hooks CI for Osmosis, will upstream after to main","October 17, 2023",IBC-Apps,https://github.com/cosmos/ibc-apps/pull/126,
+tax software,"October 16, 2023",Meeting,,
+async-icq simapp & demo + CI,"October 16, 2023","IBC-Apps, ICQ",https://github.com/cosmos/ibc-apps/pull/122,needed so we can actually perform and test v47 x/param migrations.
+reviewed joels x/feepay PR,"October 15, 2023",Juno,,"found 1 major issue, a few minor"
+ala patch 1 and 2,"October 12, 2023",Juno,"https://github.com/CosmosContracts/juno/releases/tag/v17.1.0|
+
+https://github.com/CosmosContracts/juno/releases/tag/v17.1.1","17.1.0 had an ICA breaking change in it (oops, mod tidy auto bump). 17.1.1 reverts"
+"x/FeePay - fixes, test, improvements, latest","October 12, 2023",,https://github.com/CosmosContracts/juno/compare/11ba89fd90ebc48ee3545b00de9d513e219deef0...6d29035572ff58f325c6a3b147ab181a7466f7ab,"fix test, revert wasmvm, FeePayTx param check in ante, disable feepay, fix ibc test, add back in POB test"
+Updated x/POB from Skip to latest interchaintest,"October 11, 2023",Juno,https://github.com/skip-mev/pob/pull/267,Needed to fix the test in the Juno FeePay PR due to ictest/v7 usage
+go workspace,"October 11, 2023",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/819,
+Better tokenfactory helper docs,"October 11, 2023",interchain-test,https://github.com/strangelove-ventures/interchaintest/commit/27e80ece036f73a7fbb71659634274ae76536020,
+"x/feepay: v18 namespace from main, touchups, add to upgrade handler","October 10, 2023",Juno,https://github.com/CosmosContracts/juno/compare/ae439a654a96612acd331bbd9d0e830e7ebc22e3...11ba89fd90ebc48ee3545b00de9d513e219deef0,
+Added GlobalFee e2e test,"October 10, 2023",Juno,https://github.com/CosmosContracts/juno/pull/808/commits/540182fc4cb859be775e032715deae3eacd96fd9,it is in the FeePrePay PR since we need it there for all validations
+reviewed Steve’s contract build flow PR,"October 10, 2023",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/782,
+pfm simapp: fix modules and interfacetypes for successful relaying,"October 10, 2023","IBC-Apps, PFM",https://github.com/cosmos/ibc-apps/compare/f5a7a746b3c8b3e90bf27f4c94267d4c95cba383...e76229c30b35e11bd3557adef5a3f868551ebcc7,"failing at a TransferKeeper escrow account, panic with invariance. very odd. That should be the last step to have a CI workflow running"
+Rust driver: Steve’s review touch ups,"October 10, 2023",local-interchain,https://github.com/strangelove-ventures/interchaintest/compare/8f9b2c1335a522d63dd23b2452fcc22964844e59...1291b2a90f8f25490d9f3cfd0abae0104bab7b6e,
+rename: router -> packetforward namespace,"October 10, 2023","IBC-Apps, PFM",https://github.com/cosmos/ibc-apps/pull/118,
+x/cw-hooks: added e2e testing CI + update and unregister are standalone,"October 10, 2023",Juno,https://github.com/CosmosContracts/juno/compare/e356886c4c8b93ef38ff4e38b26afa55fda5717e...17463b8b3692daac998be6ed1b1470300f29c502,merged now
+"x/FeePay: Latest ictest v7, FeePay e2e, fix nil deduct fee if GlobalFee does not have","October 9, 2023",Juno,https://github.com/CosmosContracts/juno/compare/808d6be19635db2b4e202454c4f434255e2bb22c...54de610bac0d1f556138fb26b86980783724628c,
+Write CosmWasm test easier,"October 7, 2023","Juno, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/810,notices then when writing FeePay contracts with Joel. Currently really hard to do without forking
+pfm simapp for interchaintest e2e,"October 5, 2023","IBC-Apps, PFM",https://github.com/cosmos/ibc-apps/pull/117,
+move workflows to standalone files,"October 5, 2023",IBC-Apps,https://github.com/cosmos/ibc-apps/pull/116,needed for mono repo scaling
+Fix querying a contract with a string of JSON,"October 4, 2023",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/806,impl for the wasm ibc client
+Archived PFM repo in favor of IBC-Apps,"October 4, 2023",,https://github.com/strangelove-ventures/packet-forward-middleware,
+"Remove / merge duplicated test ","October 4, 2023",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/772,
+bypass signature verification for testing option,"October 3, 2023","Juno, interchain-test",https://github.com/CosmosContracts/juno/pull/849,"If we have a env variable to bypass sig verification (opt in) then we can make testing easier to run for any account, even ones we do not own. Making it easier to simulate on chain Txs for minimal upfront cost. (Only a unique account sequence is required)"
+Module testing + discussion with Joel,"October 3, 2023","Juno, Meeting",,
+"x/cw-hooks: e2e test, better errors, Export & Import genesis patch, module v18 namespace, fix govKeeper execute, add upgrade test, add spec / docs","October 3, 2023",Juno,"https://github.com/CosmosContracts/juno/compare/dad9bf2db7a57f36c2a0c5e54455255801a53889...4adcd7fb5980a56bc188fc9753dfbff0b5a84318
+
+https://github.com/CosmosContracts/juno/compare/43065b4dd695eeee31ab5a783ca278bcc96bed75...caf3637a3eb7fc625ebb76f518d950df5e81397b",
+Juno: A year in Development Recap,"October 2, 2023",Article,https://medium.com/@reecepbcups/juno-my-year-of-development-747638ea15f3,
+IAVL query patch: v0.45.16-ics-lsm (gaia v12),"October 2, 2023","CosmosHub, CosmosSDK","https://github.com/Reecepbcups/cosmos-sdk/releases/tag/v0.45.16-ics-lsm-iavlpatch.1
+
+3 users + Strangelove team needed: https://github.com/cosmos/gaia/issues/2313",for gaia v12.0.0
+e2e test for cw-hooks,"October 2, 2023",Juno,https://github.com/CosmosContracts/juno/pull/825/commits/f9277bae5803e2f79f1c26f3ec838952b1ef7daa,SmartQueryString should be upstreamed to interchaintest for ease of use. Much nicer than yuck go structs
+Release cycle for local-ic with interchaintest,"October 2, 2023","interchain-test, local-interchain",https://github.com/strangelove-ventures/interchaintest/pull/805,
+fix: packet-forward-middleware backports,"October 2, 2023",PFM,"https://github.com/cosmos/ibc-apps/pull/115/commits/5ca6abf694dbe3453eed2d13f9c750a593582913
+https://github.com/cosmos/ibc-apps/pull/114/commits/99563b2b90fcf38167947b34b52731db4015a801
+https://github.com/cosmos/ibc-apps/pull/113/commits/1a2cd6512521f0d84f894f2eadffbe612a234e2e",
+"x/cw-hooks: new contract, testing keeper, msg_server, querier for both Staking & Gov. Unreigster contract Txs + testing and validation","October 1, 2023",Juno,"https://github.com/CosmosContracts/juno/compare/42d829624e0787b4f45c00a1a5a4b1e565c82278...dad9bf2db7a57f36c2a0c5e54455255801a53889
+
+https://github.com/Reecepbcups/cw-juno-staking-hooks-example/commit/a65524d6e593527eedafd05508ebbabcfd7081c9",
