@@ -1,0 +1,134 @@
+﻿Task name,Date,Tags,Repo/PR,Notes
+distribute a token to ever address on a network,"March 31, 2024","Neutron, Scripts",https://github.com/Reecepbcups/neutron-token-distribution,someone should really make a webapp to do this
+docs & UX for spawn from ollie meet,"March 30, 2024",Spawn,https://github.com/rollchains/spawn/pull/122,
+review+backport: set validators to specific genesis coin amounts,"March 30, 2024",interchain-test,"review: https://github.com/strangelove-ventures/interchaintest/pull/1028
+backport = fix: https://github.com/strangelove-ventures/interchaintest/pull/1039",
+refactor ictest and make private methods public,"March 30, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/1038,
+"Integrate ibc-rate-limit to Spawn ","March 27, 2024",Spawn,https://github.com/rollchains/spawn/pull/119,
+Run through with Ollie at the ICF with spawn & local-ic,"March 27, 2024","Meeting, Spawn",https://github.com/rollchains/spawn/issues/118,
+migrate ibc-rate-limit to SDK v50,"March 26, 2024","Spawn, Stride",https://github.com/Stride-Labs/ibc-rate-limiting/pull/6,
+loop chain,"March 26, 2024",Loop,LoopFans/loop-chain,
+ci: typos and link checks,"March 26, 2024","Noble, PoA Module, Relayer, cctp, horocux","https://github.com/strangelove-ventures/noble-cctp-relayer/pull/73
+https://github.com/cosmos/relayer/pull/1431
+https://github.com/strangelove-ventures/poa/pull/147
+https://github.com/strangelove-ventures/heighliner/pull/234
+https://github.com/strangelove-ventures/horcrux/pull/261",lots of little typos and broken links. All fixed!
+fix(v50): client_golang incorrect version,"March 26, 2024",CosmosSDK,https://github.com/cosmos/cosmos-sdk/pull/19873,v1.18 broke in v0.50.5. Needed v0.19 + other fixes
+feat: SDK v47 -> v50 upgrade automation,"March 21, 2024",Spawn,https://github.com/rollchains/spawn-chores-plugin/pull/3,so. much. regex. halp
+WIP: IBC rate limit module SDK v50,"March 21, 2024",Spawn,https://github.com/Reecepbcups/ibc-rate-limiting/tree/reece/v50-upgrade,"will either write a tool to migrate 47→50, or use a fresh spawn simapp"
+ICF Dev UX meet x Spawn,"March 21, 2024",Meeting,,
+spawn link fixes + typos (for spawn & new apps),"March 21, 2024",Spawn,https://github.com/rollchains/spawn/pull/110,
+ictest link fixes + typos,"March 21, 2024","interchain-test, local-interchain",https://github.com/strangelove-ventures/interchaintest/pull/1032,
+relayer link fixes + typos,"March 21, 2024",Relayer,https://github.com/cosmos/relayer/pull/1431,
+markdown linter and spell check,"March 20, 2024",IBC-Apps,https://github.com/cosmos/ibc-apps/pull/179,
+ORM support,"March 20, 2024",Spawn,https://github.com/rollchains/spawn/pull/103,
+spawn v0.50.1,"March 19, 2024",Spawn,https://github.com/rollchains/spawn/releases/tag/v0.50.1,
+docker image release & public cloud testnets (hetzner),"March 18, 2024",Spawn,https://github.com/rollchains/spawn/pull/105,
+security patches,"March 18, 2024",Spawn,https://github.com/rollchains/spawn/pull/106,
+private self hosted testnet CI github,"March 18, 2024","Spawn, ethos",https://github.com/rollchains/spawn/pull/107,
+local-ic: support remote JSON configs,"March 14, 2024",local-interchain,https://github.com/strangelove-ventures/interchaintest/pull/1022,
+working on hetzner testnet cloud support,"March 14, 2024",Spawn,"private for now, will upstream to spawn later",
+feat! wasmvm2 support for spawn,"March 12, 2024",Spawn,https://github.com/rollchains/spawn/pull/100,
+migrate polytone to IBC-Apps,"March 11, 2024","IBC, IBC-Apps",https://github.com/cosmos/ibc-apps/pull/169,
+SPAWN RELEASED !!!!!!,"March 11, 2024",Spawn,https://x.com/rollchains/status/1767220552324768006?s=20,
+v0.50.0s tagged !!!,"March 8, 2024","PoA Module, Spawn, TokenFactory","http://github.com/strangelove-ventures → globalfee, tokenfactory, poa",
+docs: intro demo ,"March 7, 2024",Spawn,https://github.com/rollchains/spawn/pull/84,
+Spawn Video Blog,"March 7, 2024",Spawn,,
+moved TF - GlobalFee to SL repo,"March 6, 2024","Spawn, TokenFactory","https://github.com/strangelove-ventures/tokenfactory/
+https://github.com/strangelove-ventures/tokenfactory/",
+go path replacement on fork usage,"March 6, 2024",Spawn,https://github.com/rollchains/spawn-chores-plugin/commit/706743f92e8beb95946a49637ef68facf0f054be,
+working on demos: IBC + New module scaffold and UX improvements,"March 6, 2024","Spawn, demo",,Will use first part for IBC-Go dev call next week.
+autocli debugging & native support for new modules,"March 6, 2024",Spawn,https://github.com/rollchains/spawn/pull/80,
+feat: local-ic native cli interaction,"March 6, 2024",local-interchain,https://github.com/strangelove-ventures/interchaintest/pull/1007,
+"continue on bad plugin panic. Fix namespace, IBC GO v8.1.0","March 5, 2024",Spawn,https://github.com/rollchains/spawn/pull/78,
+fully working proto auto generate of interface stubs,"March 2, 2024",Spawn,,
+first closed source plugin working,"March 1, 2024",Spawn,https://github.com/rollchains/spawn-chores-plugin,
+"igniteCLI support, ibc-testnet default","February 29, 2024",Spawn,,
+"cleanup, base genesis, and gensis instructions","February 27, 2024",ethos,,
+fix; Lucas AutoCLI / keyring stuff (not using tx.go),"February 27, 2024",ethos,,
+Improve UX with local-ic home directories,"February 27, 2024",local-interchain,https://github.com/strangelove-ventures/interchaintest/pull/999,
+Auto generate interface stubs,"February 27, 2024",Spawn,,
+External Plugin support,"February 27, 2024",Spawn,,
+added ICS (gaia<>neutron) support to v7,"February 26, 2024",local-interchain,https://github.com/strangelove-ventures/interchaintest/pull/989,
+Transfer PoA admin via bank denom,"February 20, 2024",PoA Module,https://github.com/strangelove-ventures/poa/pull/126,
+Slash vals 100% on removal to ensure not use not_bonded_token,"February 20, 2024",PoA Module,,
+custom distributions w/ manifest chain,"February 20, 2024",PoA Module,,
+"Virtual usntaking works, some unit test. Fixed pub_key changes needed in contract","February 20, 2024",ethos,,
+"ibc-middleware, docs, ibc-testnet docs, interchaintest e2e setup for base modules, more CI, ante handler template, keeper test setup","February 20, 2024",Spawn,,
+"removes sylvia fork, storage dep inject. resolved accounting lienholder calulations; unstaking ","February 15, 2024",ethos,,"commit_add_saturating
+
+base logic for e2e to handle unstaking"
+"cleanup of stale PRs, backports to v7","February 15, 2024",interchain-test,,
+base module generator without ignite,"February 15, 2024",Spawn,,
+"spawn: install local-ic if not, proper logging w/ color, base module generation w/ depInject","February 13, 2024",Spawn,,
+"MockStorage, VaultContract w/ base Sylvia testing","February 13, 2024",ethos,,
+"spawn: disable modules, localic, and better parser","February 9, 2024",Spawn,,"- TokenFactory & GlobalFee migrated to v50
+- Ability to Disable Modules
+- Nested Local Interchain into Spawn
+- goreleaser
+- Parser: Multi lines, logical swaps"
+Operator Delegation logic,"February 9, 2024",ethos,,"- Modified OperatorDelegations logic to be a single vs vec
+- Working on getting remote_stake to be happy with SudoMsg"
+"Tokenfactory cleanup, ante logic, testing","February 8, 2024",manifest,https://github.com/liftedinit/manifest-ledger/pull/4,moved changes upsteam to my tf fork w/ option to disable the use of a SudoMinter
+Ability to remove. Tokenfactory + POA added,"February 8, 2024",Spawn,https://github.com/strangelove-ventures/spawn/pull/8,
+SDK v50 tokenfactory,"February 8, 2024","Ecosystem, TokenFactory",https://github.com/Reecepbcups/tokenfactory,Maybe also have a non cosmwasm fork branch?
+Juno v19 Post Mortrum Blog Post,"February 8, 2024",Juno,https://medium.com/@reecepbcups/juno-v19-post-mortum-969f251bffb7,The smart contracts that thought they could
+Boosted rewards script for Oni,"February 7, 2024",Ecosystem,https://github.com/Reecepbcups/validator-reward-distribution,
+Work on Ethos operator validator selection from the ETH side w/ mesh,"February 6, 2024",ethos,reece/operator-val-selection,
+Fix!: wasm light client x wasmd integration (VM path things),"February 5, 2024",Juno,https://github.com/CosmosContracts/juno/pull/961,"wasm says it wants the homeDir, but really wants the dataDir. May want to upstream a change for that. Going to hot patch this thing"
+manifest ledger initial base w/ Tokenfactory fork,"February 5, 2024",manifest,https://github.com/liftedinit/manifest-ledger,
+ictest v8.1.0 Ethereum support,"February 5, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/releases/tag/v8.1.0,blog soon
+"Tax tooling, pull missing data from Juno contracts to balance the books","February 3, 2024",,,"parses all execute contracts, gets events, sorts based off sent vs received, and output back into the CSV"
+Migrate TokenFactory → SDK v50,"February 2, 2024","TokenFactory, manifest",https://github.com/Reecepbcups/manifest-chain/pull/4,
+TokenFactory minting process logic,"February 2, 2024",manifest,https://github.com/Reecepbcups/manifest-chain/pull/6,
+"Setup network, CI, test, files from spawn base SDK v50","February 1, 2024",manifest,https://github.com/Reecepbcups/manifest-chain/pull/1,
+"fix dep(viper), use mock operator PR, add Operator Escrow Addr logic & pass through the vault.","January 31, 2024",ethos,https://github.com/Ethos-Works/ethos-chain/pull/81,
+PoA v0.0.1-alpha.2,"January 31, 2024",PoA Module,https://github.com/strangelove-ventures/poa/releases/tag/v0.0.1-alpha.2,
+run through w/ Steve on Ethos Vault contract & ABCI requirements,"January 31, 2024",ethos,,
+Final PoA migration to collections work (testing),"January 31, 2024",PoA Module,https://github.com/strangelove-ventures/poa/pull/93,v0.2.0
+compare cross chain delegators from a another network scripts,"January 30, 2024",Scripts,,"i.e. Get all Juno delegators to a specific validator. Then query other networks such as Cosmos, Celestia, and check if they are also staked to another. If so, how much"
+"modify Secp256k1 to use the gen for ETHSecp instead of another. ","January 29, 2024",ethos,"https://github.com/Ethos-Works/ethos-chain/pull/63
+https://github.com/Ethos-Works/cosmos-sdk/pull/5","In the future we can migrate to have both options, but focus is on getting e2e testing to work rather than pretty upstreaming (will require CometBFT work too)"
+feat: Support CometMock,"January 26, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/955,
+chore(deps): SDK v50 mesh Consumer,"January 26, 2024","Mesh-Security, ethos",https://github.com/osmosis-labs/mesh-security-sdk/pull/160,
+Circle CCTP x Noble message decoding & IAVL issues,"January 26, 2024",Noble,"https://www.mintscan.io/noble/tx/5931A0DF16C0D29006CBAB3FD1762F31BF2AE61CE21E36899AC245FA046C867F?height=4593256
+
+circle Cctp v 1 Deposit For Burn → echo AAAAAAAAAAAAAAAAj7YDV80kNsJIP/pmD4ZR8jAsxV8= | base64 --decode | od -A n -t x1 gives us the ETH addresses of 0x8fb6…5f as we desire",
+fix(upgrade): clock params,"January 25, 2024",Juno,https://github.com/CosmosContracts/juno/pull/952,
+chore!(deps): SDK v50 for the SDK module,"January 24, 2024",Mesh-Security,https://github.com/osmosis-labs/mesh-security-sdk/pull/160,
+"Base e2e test case setup (ETH, Ethos, Consumer). Still need to AVS","January 23, 2024",ethos,,
+IAVL patches for internal infra,"January 23, 2024",CosmosSDK,,
+test: proper setup for EthosApp,"January 22, 2024",ethos,https://github.com/Ethos-Works/ethos-chain/pull/80,
+Fix library issue with Vault/External contracts not allowing compile,"January 18, 2024",ethos,,
+ETH bindings discussion,"January 17, 2024","Meeting, ethos",,
+v19 uploaded to testnet for Friday @ 1600 UTC,"January 17, 2024",Juno,https://testnet.mintscan.io/juno-testnet/proposals/46,
+Finish testing Vault & External + Consumers (since no native staking),"January 16, 2024",ethos,https://github.com/Ethos-Works/mesh-security/pull/2,
+v19 tag for testnet,"January 16, 2024",Juno,https://github.com/CosmosContracts/juno/releases/tag/v19.0.0-alpha.1,
+How to submit a Tx from mnemonic to chain,"January 13, 2024",CosmosSDK,https://github.com/Reecepbcups/cosmos-submit-tx-client,
+staking_by_user was searching the user as a validator in ExternalStaking. Filterrs  properly now,"January 11, 2024",ethos,,
+tagged PFM and ICQ v8 releases,"January 11, 2024",IBC-Apps,"https://github.com/cosmos/ibc-apps/releases/tag/middleware%2Fpacket-forward-middleware%2Fv8.0.0
+
+https://github.com/cosmos/ibc-apps/releases/tag/modules%2Fasync-icq%2Fv8.0.0",
+chore(upgrade): Migrate Core-1 Multisig to Charter,"January 10, 2024",Juno,https://github.com/CosmosContracts/juno/pull/936,
+feat: optionally control other validators from local-ic,"January 10, 2024",local-interchain,https://github.com/strangelove-ventures/interchaintest/pull/939,
+"v18.1.0 sever security patch ","January 10, 2024",Juno,,
+Vault contract base rebelancing w/ Sudo ability. Basic unit testing,"January 9, 2024",ethos,,
+feat: add active_external_staking query to vault,"January 6, 2024",Mesh-Security,https://github.com/osmosis-labs/mesh-security/pull/184,required for PoA use case
+WIP: Adding Ethsecp256k1 to the CosmosSDK,"January 5, 2024",CosmosSDK,"native SDK WIP: https://github.com/Reecepbcups/cosmos-sdk/commits/reece/eth_secp256k1/
+
+go-eth allowed: https://github.com/Reecepbcups/cosmos-sdk/pull/10","Great for chains that want a 60 cointype without full Ethermint
+
+https://github.com/Reecepbcups/cosmos-sdk/pull/10"
+review + finishing touches to Bez’s PFM SDK v50 PR,"January 4, 2024","IBC-Apps, PFM","https://github.com/cosmos/ibc-apps/pull/152
+
+https://github.com/cosmos/ibc-apps/compare/84a39dda18055f0635df21374e14b6cf42aeed6c...28abff2b26e4ef158f7029679ef30aa67e59d31a",
+feat: writing for additional start args and env,"January 4, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/933,required for IBC-Apps PFM upgrade to test the duality patch (v7.1.2)
+fix: async-icq v8 CI,"January 4, 2024","IBC-Apps, ICQ",https://github.com/cosmos/ibc-apps/pull/157,
+AsyncICQ v8 fixes,"January 3, 2024","IBC-Apps, ICQ",https://github.com/provenance-io/ibc-apps/pull/1,
+docs: interchaiontest templates,"January 3, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/932,
+review v8 Async ICQ PR,"January 2, 2024","IBC-Apps, ICQ",https://github.com/cosmos/ibc-apps/pull/151#pullrequestreview-1800943844,
+chore: dependency versions,"January 1, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/929,"With focus on other apps, there were a lot of pending. Putting into 1 PR"
+SDK v50 migration,,"Spawn, Stride",https://github.com/Stride-Labs/ibc-rate-limiting/pull/6,auto migrated using new Spawn tool (v47 → v50)
+,,,,
+,,,,
+,,,,
