@@ -1,0 +1,127 @@
+﻿Task name,Date,Tags,Repo/PR,Notes
+chore: lightweight dockerized spawn + local-ic,"June 30, 2024","Spawn, local-interchain",https://github.com/rollchains/spawn/pull/170,
+chore: easily bump local-ic,"June 30, 2024",Spawn,https://github.com/rollchains/spawn/pull/170,
+get off wasmd fork via a guard clause ante decorator,"June 29, 2024",wormhole,https://github.com/strangelove-ventures/wormhole/issues/13#issuecomment-2198258109,
+"evm: fix types, pre compiles, TM headers, utils, gas meters, iterators, and more types","June 28, 2024",evm,https://github.com/rollchains/cosmos-evm/compare/4a3f1adae74ad6301e7a627c2d6c4358a6a33e9f...8fe7013b33c9e4b70b5e197959f1295e89a75c26,
+feat: DNM v0.50 EVM Support Cosmos-SDK fork,"June 28, 2024","CosmosSDK, evm",https://github.com/rollchains/cosmos-sdk/pull/1,
+refactor: use ReadFile instead of SingleFileContent,"June 28, 2024","interchain-test, refactor",https://github.com/strangelove-ventures/interchaintest/pull/1161,"minor nit, but prettier"
+feat: penumbra ics-20 test cases,"June 28, 2024","Review, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/1157,
+feat: handle coverage from supported binaries,"June 27, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/1158,
+review: add simulator test wiring,"June 26, 2024","Review, TokenFactory",https://github.com/strangelove-ventures/tokenfactory/pull/12/files,
+feat: metadata file on chain creation,"June 26, 2024","ICS, Spawn",https://github.com/rollchains/spawn/pull/164,"When new networks are created, basic metadata should be set for frontends to use / general ease of use at a quick glace. This auto builds an ICS proposal as well in the repo with pre-filled information"
+fix: validate user config inputs better,"June 26, 2024",Spawn,https://github.com/rollchains/spawn/pull/163,
+refactor: SDK v50-ify EVM impl without forks,"June 24, 2024","Spawn, evm, sei",https://github.com/Reecepbcups/sei-evm/pull/1,
+wip: Sei EVM w/ pre compiles to external repo,"June 24, 2024","Spawn, evm, sei",https://github.com/Reecepbcups/sei-evm,
+feat(e2e): ethos local-ic testnet integration,"June 24, 2024","ethos, local-interchain",https://github.com/rollchains/spawn/pull/159,
+feat: Ethos ETH Restaking Integration,"June 24, 2024","Spawn, ethos",https://github.com/rollchains/spawn/pull/158,"finally past previous issues (nil query router, incorrect bech32), but new integration test issue with IBC trusted validators is causing issues."
+feat: outdated version notifier,"June 21, 2024",Spawn,https://github.com/rollchains/spawn/pull/156,
+feat(local-ic): add version cmd,"June 21, 2024",local-interchain,https://github.com/strangelove-ventures/interchaintest/pull/1152,
+bump v7 versions to latest for the hub,"June 20, 2024","ICQ, PFM",https://github.com/cosmos/ibc-apps/pull/199,"All CI passes, no issues"
+FINALLY GOT DEMOCRATIC CONSUMERS TO WORK WOO,"June 19, 2024",Spawn,,https://github.com/rollchains/spawn/pull/150
+continuied hacking on ICS democratic consumer,"June 18, 2024","ICS, Spawn",,why does this work with  hermes & not gorly?
+final touches to CosmWasm for the hub,"June 18, 2024","CosmWasm, CosmosHub",https://github.com/cosmos/gaia/pull/3051,
+debugging with Matija at informal for Hub ICS spawn brussles workshop,"June 18, 2024","CosmosHub, Spawn",https://github.com/rollchains/spawn/pull/154 & https://github.com/rollchains/spawn/pull/153,"mac specific things, then an edge case with too fast of block times for the relayer & gov props"
+still working through IBC init bug with new democracy app.,"June 17, 2024",Spawn,,really need to get this over the line has been blocking me for a bit (for Ethos integration)
+"resolved: [Bug]: ""grpc: received message larger than max"" when get specified tx info","June 17, 2024",CosmosHub,https://github.com/cosmos/gaia/issues/3151,
+feat(local-interchain): docker compose without DIND,"June 17, 2024",local-interchain,https://github.com/strangelove-ventures/interchaintest/pull/1151,as requested at devmos by an osmosis team member (Michael)
+optimistic block execution,"June 15, 2024",Spawn,https://github.com/rollchains/spawn/pull/151,
+"private: rr chain, vote injection works. ","June 15, 2024",abci++,,currently kinda hacky. Good learnings though for spawn integration as well. Currently is not removing processed TxHashes from the map. Empty VEs with just the sender
+back from Strangelove/rollchains Retreat,"June 15, 2024",,,learned vote extensions during this time !! fun stuff
+security: msg gatekeeper for authz messages,"June 13, 2024","Security, celestia",https://github.com/celestiaorg/celestia-app/pull/3555,
+Devmos Conference Talk,"June 8, 2024","Meeting, Osmosis, local-interchain",,
+democratic ICS debugging and verification,"June 6, 2024","ICS, Spawn",https://github.com/rollchains/spawn/pull/149,"figured out slashing has to be set twice, once with staking & once with ConsumerKeeper. Wow. "
+democratic ICS,"June 5, 2024","ICS, Spawn",https://github.com/rollchains/spawn/pull/149,required for the Ethos stuff
+ethos integration,"June 4, 2024","Spawn, ethos",https://github.com/rollchains/spawn/pull/148,
+Got our fork upgraded to SDK v0.50.7,"June 4, 2024","CosmosSDK, Spawn","https://github.com/rollchains/cosmos-sdk/releases/tag/v0.50.7
+https://github.com/rollchains/spawn/pull/146",
+interchaintest v8.4.0,"May 31, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/releases/tag/v8.4.0,
+"add polytone to IBC-Apps finalization, testing, and workflows","May 31, 2024","IBC-Apps, daodao",https://github.com/cosmos/ibc-apps/pull/169,
+refactor!: manual coin payouts only,"May 30, 2024",manifest,https://github.com/liftedinit/manifest-ledger/pull/68,
+"tagged v0.50.2 with full ICS support ","May 29, 2024",Spawn,https://github.com/rollchains/spawn/releases/tag/v0.50.2,
+Support ICS for all default interchaintest,"May 28, 2024","Spawn, interchain-test",https://github.com/rollchains/spawn/pull/143,blocked on some ICS NPEs it looks like across many test
+"chores, chores, meetings, and more chores","May 28, 2024","Meeting, interchain-test, local-interchain, manifest",,So many issues and PR reviews
+"feat: consensus selector (POS, POA, ICS)","May 26, 2024",Spawn,https://github.com/rollchains/spawn/pull/145,
+"memFS for unit test, not sure if I want to do yet just a speed up","May 26, 2024",Spawn,https://github.com/rollchains/spawn/pull/144,
+refactor: build local-ic configs,"May 25, 2024","Spawn, local-interchain",https://github.com/rollchains/spawn/pull/142,ICS vs IBC supported now super simply
+fix: local-ic go namespace,"May 25, 2024","Spawn, interchain-test, local-interchain",https://github.com/strangelove-ventures/interchaintest/pull/1142,Builder could not be imported due to incorrect namespace
+feat!(manifest): burn coins,"May 25, 2024",manifest,https://github.com/liftedinit/manifest-ledger/pull/64,
+feat(local-ic): better genesis builder,"May 24, 2024","Spawn, local-interchain",https://github.com/strangelove-ventures/interchaintest/pull/1141,
+Devmos Local-IC presentation,"May 23, 2024","Ecosystem, local-interchain",,
+review & cleanup for ibc-rate-limit → ibc-apps,"May 23, 2024","IBC-Apps, Stride","Review: https://github.com/cosmos/ibc-apps/pull/191
+Fixes + testing: https://github.com/cosmos/ibc-apps/pull/194",
+latest versions draft,"May 22, 2024",Spawn,https://github.com/rollchains/spawn/pull/141,
+chore(pfm): remove unused refundTimeout,"May 22, 2024",IBC-Apps,https://github.com/cosmos/ibc-apps/pull/193,
+"9 support request (cosmos discord, teams in DMs)","May 22, 2024","IBC-Apps, PoA Module, interchain-test, local-interchain",,
+bunch of IBC-Apps maintance,"May 21, 2024",IBC-Apps,,
+BeforeSend hooks,"May 19, 2024",TokenFactory,https://github.com/strangelove-ventures/tokenfactory/pull/8,"WIP, still on vacation. base test & idea flow done"
+"meeting, reviews, & PR cleanup kind of day (15+)","May 10, 2024",,,
+fix: ICS provider ↔ Spawn consumer,"May 9, 2024","ICS, Spawn",https://github.com/rollchains/spawn/pull/136,Thanks to Matija at Informal for the help! v4.1 provider works with v5 consumer. But v5 consumer breaks the go-relayer (hermes works)
+v2 refactor attempt,"May 9, 2024",PoA Module,https://github.com/strangelove-ventures/poa/pull/179,
+informal / hub,"May 9, 2024",Meeting,,
+chore: ICS Touchups,"May 8, 2024",Spawn,,
+Spawn x ICS vid demo,"May 8, 2024","Spawn, Video",,
+"reduced complexitgy, start relayer for local-interchain as well, check multiple ICS versions unit test","May 7, 2024","ICS, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/1115,
+test(ics): validate consumer transactions execute,"May 5, 2024","ICS, interchain-test, local-interchain",https://github.com/strangelove-ventures/interchaintest/pull/1115,"Moved all ICS to its own dedicated file, helpers for finishing setup & flushing ICS packets, test multiple ICSxProvider versions, test provider→consumer IBC transfer, and general executes"
+Fixed plugins to work without having to reference local spawn,"May 3, 2024",Spawn,https://github.com/rollchains/spawn/pull/128,
+"fix module generation for ICS, use new POA, TF, GlobalFee","May 3, 2024",Spawn,https://github.com/rollchains/spawn/compare/f7f382eedd240f061a50fca426f4d497919c7b2f...66a0efa5ea96386f4ade4641a2af8a14789d9dd5,
+remove staking keeper for default bond denom (play nice with ICS),"May 3, 2024","GlobalFee, Spawn",https://github.com/strangelove-ventures/globalfee/pull/5,
+Lots of unit test & further validation,"May 3, 2024",Spawn,https://github.com/rollchains/spawn/pull/135,Will make future maintenance so much easier
+Working ICS e2e from base,"May 2, 2024",Spawn,https://github.com/rollchains/spawn/compare/f3a5088c02c2b241eb3fcac080d5483d771519a9...5024e298a8e8ca9474f07d6758b5ad56a627e46c,Had to move the consumer keeper for slashing to be happy + use v5.0.0-rc0 & a custom ictest geneiss migration override
+Finished ICS Support InterchainTest,"May 2, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/compare/5f64d9a10009f737a72f60e8cd3e0040e458b16a...90c3064378457dcbf56adff1700aeca1091d44dd,
+review: refactor: flush logic,"May 1, 2024","Call, Noble, cctp",https://github.com/strangelove-ventures/noble-cctp-relayer/pull/89,
+attempted ICS ictest integration with fresh consumer,"May 1, 2024",Spawn,,ICS v5-rc.1 not happy with ICS provider v3.1 or something. maybe on the ICTest side
+re-usable workflows for easier per push validation,"April 30, 2024",Spawn,https://github.com/rollchains/spawn/pull/133,
+test_ics_node.sh for easy local node runners,"April 30, 2024",Spawn,https://github.com/rollchains/spawn/compare/66fb4b307753b764dc1450509e4dd95c37058662...97fb5afef87c243209559bf189b57c85a46ddf7b,
+Finished CI for polytone on IBC-Apps,"April 28, 2024",IBC-Apps,https://github.com/cosmos/ibc-apps/pull/169,
+refactor(v7): make internal/ public,"April 28, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/1102,
+refactor: wget local-ic vs fresh compile for remote repos,"April 28, 2024",local-interchain,https://github.com/Reecepbcups/interchaintest-rust-example/pull/6,
+sped up testing 650%,"April 26, 2024",Spawn,https://github.com/rollchains/spawn/compare/f0b27d8f5c1acaaf4a344cb7c21f5f5e39f8ef5c...573abfed5afc6d6eff45279e8528ec04afec0155,build & run chain in the background while running other test. Then verify at the end
+ICS v5 continued work,"April 26, 2024",Spawn,https://github.com/rollchains/spawn/pull/129,"spawntag:ics’ed lines, reduced log spam, removed staking based test, easier maintenance, tokenfactory tweaks for consumers (i.e. no distribution for tokenfactory option now)"
+fix(ratelimit): setup and add test for new chains,"April 26, 2024","Spawn, Stride, interchain-test","https://github.com/rollchains/spawn/pull/131
+https://github.com/Stride-Labs/ibc-rate-limiting/commit/b3513ab696e202bad20d793abc283dbb9a758543",
+feat: ICS Support for new chains,"April 25, 2024","CosmosHub, Spawn, ethos",https://github.com/rollchains/spawn/pull/129,
+feat: Interchain Security v5 support !!,"April 24, 2024","interchain-test, local-interchain",https://github.com/strangelove-ventures/interchaintest/pull/1088,
+Working through SDK abci server type ↔ gordian for InitChain.,"April 24, 2024","CosmosSDK, Gordian",https://github.com/Reecepbcups/cosmos-sdk/compare/3a700801400c4ebea40e708cbdc55f7c428c4c67...006e619fbb985c73440fd53155345c9248b4fd13,Issue is the SDK depends on the ABCI types from CometBFT. Ideally we use json.RawMessage’s so each can pass their own params over and it’s more modular for the wrappers and shims
+feat: add ExposeAdditionalPorts config option,"April 24, 2024","Review, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/1098,
+get consumer genesis from provider chain and transform it,,Review,https://github.com/strangelove-ventures/interchaintest/pull/1093,may help with some of my ICS v5 migration work
+CosmWasm Interchaintest action items priority w/ Justin,"April 24, 2024","Meeting, interchain-test",,
+working on a fix to the spawn plugin system,"April 23, 2024",Spawn,"https://github.com/rollchains/spawn/pull/128
+https://github.com/rollchains/spawn-chores-plugin/pull/4",
+stakeholder payout is non-deterministic,"April 23, 2024",manifest,https://github.com/liftedinit/manifest-ledger/pull/47,
+feat: EnableCommunityPoolFeeFunding,"April 23, 2024",TokenFactory,https://github.com/strangelove-ventures/tokenfactory/pull/7,
+fix: test_node improvements & POA SDK patch,"April 22, 2024","PoA Module, Spawn, TokenFactory",https://github.com/rollchains/spawn/pull/126,
+v0.50 Interchain Security (v5) integration,"April 23, 2024","interchain-test, local-interchain",https://github.com/strangelove-ventures/interchaintest/pull/1088,
+v0.50.1-alpha.1,"April 22, 2024",PoA Module,https://github.com/strangelove-ventures/poa/releases/tag/v0.50.1-alpha.1,"for Ethos, Loop, and Manifest atm"
+docs: authz ref info to the circuit ante,"April 22, 2024",CosmosSDK,https://github.com/cosmos/cosmos-sdk/pull/20146,
+"Learning libp2p for gordian, built a mini KV store","April 21, 2024","Gordian, Scripts, libp2p2",https://github.com/Reecepbcups/redis-libp2p,kinda like redis
+Show devs how to websocket sub w/ Python & Go,"April 21, 2024",Docs,https://github.com/Reecepbcups/cosmos-websocket-examples,
+Gordian & channels all day,"April 19, 2024",Gordian,,
+Gordian x Cosmos SDK Server v2,"April 18, 2024","CosmosSDK, Gordian",,
+using ica controller instead of intertx v7 conflicts,"April 17, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/1074,
+updated hermes v7 conflicts,"April 17, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/1068,
+YAML support,"April 17, 2024",local-interchain,https://github.com/strangelove-ventures/interchaintest/pull/1044,
+SDK tweak to resolve jailing issue (h panic / h+1),"April 16, 2024","CosmosSDK, PoA Module","https://github.com/cosmos/cosmos-sdk/pull/20059
+https://github.com/strangelove-ventures/poa/pull/165",
+"going through Jail, multiple local iterations. no success still :\","April 15, 2024",PoA Module,https://github.com/strangelove-ventures/poa/pull/165,
+Fixed case for POA,"April 14, 2024",PoA Module,https://github.com/strangelove-ventures/poa/pull/160,Jailed validator issue (where it re-jails every block after jailing) but does not contrib to consensus. tagged issue to work on
+POA security document,"April 14, 2024","Docs, PoA Module",https://github.com/strangelove-ventures/poa/pull/164,
+Working POA case w/ staking hooks,"April 14, 2024",PoA Module,https://github.com/strangelove-ventures/poa/pull/161,fix(abci v2)
+POA legit all day ugh,"April 13, 2024",PoA Module,,
+Finish fixing ABCI logic for creating new validators to the set,"April 12, 2024",PoA Module,https://github.com/strangelove-ventures/poa/pull/152,
+POA testing,"April 10, 2024",PoA Module,,Migrated to new test covering cases. Final cleanup should be good to go soon
+Condensing snapshot data to be more readable. sort by # of NFTs held,"April 9, 2024",Stargaze,"https://github.com/Reecepbcups/stargaze-nft-snapshots/pull/11
+https://github.com/Reecepbcups/stargaze-nft-snapshots/pull/12",custom JSON dumper for elements. Removes ~275k lines.
+integrated permissioned CosmWasm to CosmosHub,"April 9, 2024",CosmosHub,"https://github.com/cosmos/gaia/pull/3051
+
+https://x.com/Reecepbcups_/status/1777850300390384004",https://www.mintscan.io/cosmos/proposals/895
+fix(->abci-patch): abci removing logic,"April 9, 2024",PoA Module,https://github.com/strangelove-ventures/poa/pull/152,"fixing test, need to resolve e2e issues (may be setting to 0 then jailing or something)"
+stargaze auto NFT snapshots,"April 8, 2024","Infra, Stargaze",https://github.com/Reecepbcups/stargaze-nft-snapshots,
+celestia security,"April 6, 2024",celestia,,
+BeginBlock: set last val power while deleting current val index,"April 5, 2024",PoA Module,https://github.com/strangelove-ventures/poa/pull/149,also fixed the add val logic test. need to fix jailing & removal test verification now
+Launched Loop mainnet,"April 5, 2024",Loop,https://github.com/LoopFans/loop-chain,
+fix!: use abci endblock instead of depending on staking,"April 3, 2024",PoA Module,https://github.com/strangelove-ventures/poa/pull/149,
+reviewing a ton of interchaintest + ibcapps + tiablob PRs,"April 3, 2024","IBC-Apps, interchain-test, tiablob",,
+ibc-rate-limit SDK v50 + spawn integration,"April 2, 2024","IBC, Spawn, Stride",https://github.com/Stride-Labs/ibc-rate-limiting/commits/feat/sdk-v50/,
+Fixed some v50 migrations,"April 1, 2024","IBC, Stride",https://github.com/Stride-Labs/ibc-rate-limiting/pull/6/commits/e36583f75aaa378cf64cbfcbef6c4d07bfdb9adb,
+guide for spawn new feature additions,"April 1, 2024","Docs, Spawn",https://github.com/rollchains/spawn/pull/119/commits/930481d596cad0e49dc6ad7e7d718d369e6c5248,
+ibc-ratelimit module generation,"April 1, 2024",Spawn,https://github.com/rollchains/spawn/pull/119/commits/13a895ecef5143ffe6e0ae2ff2e04d2ac900b9e5,
