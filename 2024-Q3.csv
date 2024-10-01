@@ -1,0 +1,244 @@
+﻿Task name,Date,Tags,Repo/PR,Notes
+dynamic docs building based on format of folder structure,"September 30, 2024","Docs, ICF",https://github.com/interchainio/dev-portal-docsite/pull/4,was working to x/ docs and kind of needed this. useful config setup
+docs(tutorial): cosmwasm contract + module,"September 30, 2024","CosmWasm, Docs, Spawn",https://github.com/rollchains/spawn/pull/224,
+"finalize docs(tutorials): cw nfts, tokenfactory, spawn overview","September 30, 2024","Docs, Spawn",https://github.com/rollchains/spawn/pull/223,"tested on macos as well, all works as expected for CW + tokenfactory"
+devex + docs,"September 30, 2024","Docs, ICF",,
+"docs(tutorials): cw nfts, tokenfactory, spawn overview","September 29, 2024","Docs, Spawn",https://github.com/rollchains/spawn/pull/223,
+Putting together clients target outreach sheet w/ automation,"September 28, 2024","Scripts, bizdev",,
+"wip: feat: add cometbft docs ","September 27, 2024","Docs, ICF, cometbft",https://github.com/interchainio/dev-portal-docsite/pull/3,"MIgrates over to docusaurus on our side, allowing their native impl to continue to work without change"
+,,,,
+review alex aadao prop,"September 27, 2024",Review,,
+ICT PR reviews w/ andrew,"September 27, 2024","Meeting, Review, interchain-test",,
+10planet,"September 27, 2024",Meeting,,
+A little styling for base demo with aggregated docs and stack components,"September 26, 2024","Docs, ICF, WebApp",,
+"Review: feat: app routing, mocked auth, styles and layout. v0 product flows","September 26, 2024","Review, Spawn, WebApp",https://github.com/rollchains/spawn-ui/pull/3,
+feat(local-ic): stream logs,"September 26, 2024",local-interchain,https://github.com/strangelove-ventures/interchaintest/pull/1269,
+Golang Stream Logs Example,"September 26, 2024","Spawn, WebApp",https://github.com/Reecepbcups/golang_stream,needed for spawn webapp. Getting into local-ic
+"Docs site: cleanup of sync scripts (function approach, reduce copmplexity)","September 26, 2024","Docs, ICF",,
+Docs site: Cosmos-SDK support,"September 25, 2024","CosmosSDK, Docs, ICF",,"working impl with versions and fixing local reference copies. Ideally we can reduce these into just the SDK directory vs having 2 dirs to pull from "
+review: thorchain v50 interchaintest support,"September 25, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/1267,
+Spawn UI,"September 25, 2024",Meeting,,
+ICF docs site POC with Spawn & IBC,"September 25, 2024","Docs, ICF",,also includes the bash sync
+docusausur w/ Docs group,"September 25, 2024",Meeting,,
+base docs with Spawn & another example up,"September 24, 2024","Docs, ICF",,"using spawn since I know it is good. Versioning added to the demo, but its static. Need to see how to do different drop down navs per unique instance (So IBC gets v8, v7) and SDK gets v47, v50"
+working on ICF docs versioning,"September 24, 2024","Docs, ICF",,brief exchange with Julien as well for what the SDK needs. Seems like what I am building but a sub compoent of the parent architecture.
+allocations,"September 24, 2024",Meeting,,
+devrel ollie,"September 24, 2024",Meeting,,
+Starting on draft 1 of Spawn Interchain Intro workshop for Duabi,"September 23, 2024",presentation,,
+Porting brussles Spawn presentation → cosmoverse dubai 2024,"September 23, 2024",presentation,,
+refactor: really remove globalfee,"September 23, 2024",Spawn,https://github.com/rollchains/spawn/pull/219,
+DevEx,"September 23, 2024",Meeting,,
+attempting to get grpc support for Txs with the native CLI,"September 21, 2024","CosmosSDK, Gordian",https://github.com/rollchains/gordian/compare/6139655373401d13094859f1d57bd3887fcbedae...502cf41b181ab75295cd66e8f43c3272d0ea8384,"Added —grpc-addr to CLI Tx, adding a new way to broadcast a command to the consensus gRPC server from the application. Currently it is still way to tied to the cometbft server
+
+Failure to do this would result in no CLI usage being possible without manually generating the tx bytes, singing, and broadcasting raw. not ideal."
+feat: alternate consensus engine support,"September 20, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/1265,CometBFT and Gordian along side one another with smart consensus selection on startup.
+release: v8.7.1,"September 20, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/releases/tag/v8.7.1,
+prysm network,"September 19, 2024",,https://github.com/LightLABS-Dev/prysm/,
+continued work on IBC-Go v9 (sdk v52),,,https://github.com/cosmos/ibc-go/pull/7298,working on dependency issues for different modules ugh
+hub dev upadtes,"September 18, 2024","CosmosHub, Meeting",,
+refactor: speed up internal testing,"September 18, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/1263,
+review:fix(query): StakingQueryDelegationsTo reusing the same object,"September 18, 2024","Review, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/1262,
+Thorchain upgrade meet re: v50,"September 17, 2024",Meeting,,
+review: ci: add new CI jobs and bring existing ones into compliance,"September 16, 2024","Review, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/1233,
+chore: miscellaneous for v0.52 to compile,"September 16, 2024","CosmosSDK, IBC",https://github.com/cosmos/ibc-go/pull/7298,
+Futher migration for ICT with sdk v0.52 / IBC-Go v9,"September 16, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/compare/6e412c9a553b2194ce4c04cabca50393e3e97e34...e59965790e64f22cdbba2d38010fa68b59bf9d48,testutil.MakeTestEncodingConfig and authTx.DefaultJSONTxDecoder are the 2 biggest questions / blockers atm
+review of Cosmos relayer refactor with Justin,"September 16, 2024","Meeting, Review",,
+feat: check for panic in logs on start ,"September 16, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/1258,HUGE UX improvement
+review: updated code of conduct,"September 13, 2024","Relayer, Review",https://github.com/cosmos/relayer/pull/1498,
+Remove complexity from ICT - blocksdb,"September 13, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/1257,
+review: spawn UI complete flow,"September 13, 2024","Spawn, WebApp",,
+review: add new CI jobs and bring existing ones into compliance,"September 13, 2024","Review, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/1233#pullrequestreview-2258142073,
+Spawn IBC module demo w/ Ollie,"September 13, 2024","ICF, Spawn, demo",,
+spawn UI w/ Galen,"September 13, 2024","Meeting, Spawn",,
+release: v0.50.8,"September 13, 2024",Spawn,https://github.com/rollchains/spawn/releases/tag/v0.50.8,
+fix(docs): typos & v0.50.8 release changes,"September 13, 2024",Spawn,https://github.com/rollchains/spawn/pull/215,"fixes minor edge case when naming a network after an x/template, fixed macos install guide, improves make file, resolves pingpub explorer docker issue, further internal testing"
+figuring out best approach for Gordian wrt delivered data events,"September 12, 2024",CosmosSDK,,Ideally the SDK stores TxHash → ExecTxResults and Block# → Block Events. In both cases gordian does not need to care about this data. The relayer cares about app state
+many many off the cuff calls,"September 12, 2024",Meeting,,
+"Typos, highlights, new challenge (name→wallet), fix new module generation","September 12, 2024","Docs, Spawn",https://github.com/rollchains/spawn/commit/34c143e6d7dbce5721e6e9095fceb5a856a3b431,
+feat: IBC module generation,"September 11, 2024","IBC, Spawn",https://github.com/rollchains/spawn/pull/214,"must have for the cosmosveres india / dubai tutorial
+
+From 4h to make a new module → 4 minutes :D with testnet & relayer all ready to go"
+working IBC module example for cross chain name service basic,"September 11, 2024","Docs, IBC, ICF, Spawn",private for the moment,Spawn needs a big refactor for ibc module creation vs just middlewares atm. Took me 3 hours to get a working concept
+kapa bot / building an IBC module for demo,"September 10, 2024",ICF,,
+"gRPC, consensus init, ","September 10, 2024","Gordian, Spawn",https://github.com/rollchains/spawn/compare/50f54f3cbd84157e3cc8facc4e2871b565e0bb7e...3e1e5fa07fc0b45cac96bd3405a4ba19d05aae49,
+"Add cache, fix block resp watermark, fix perms","September 10, 2024","Gordian, interchain-test",https://github.com/strangelove-ventures/interchaintest/compare/ba2fc78f8c69958daa98953a75a49c4bab32c1b2...c9da1f69ed4e92e8cc40a933c5f65f8ab388414a,"fixed docker build system as well locally, now it requires a --output type=docker ?? weird. bumped alpines as well and problem solved
+
+next steps: get the txs to send bytes directly to the application without having to —generate-only."
+base: v9 upgrade work for IBC team + internal gordian,"September 9, 2024","Upgrade, Video, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/1252,
+"devrel, UaaS, spawn UI","September 9, 2024",Meeting,,
+docs base for interchain docs,"September 8, 2024","Docs, ICF",https://github.com/Reecepbcups/interchain-docs/pull/1,
+spawn docs base,"September 7, 2024","Docs, Spawn",https://rollchains.github.io/spawn/v0.50/,
+validate: chain creation & modules in a proper document,"September 7, 2024","Docs, Spawn",https://github.com/rollchains/spawn/issues/86,
+"spent all day getting nextra to work, gave up, then used docusaurus w/ multiple versioning & static gh pages launch","September 7, 2024","Docs, Spawn, WebApp",,
+GetCommit support,"September 6, 2024",Gordian,"https://github.com/cosmos/relayer/pull/1492/commits/c99e78d35b83e57081c0d15fb511118a7d7c9203
+
+https://github.com/rollchains/gordian/commit/6139655373401d13094859f1d57bd3887fcbedae",
+SimulateTransaction to reduce ABCI requirement for GasInfo,"September 6, 2024",Gordian,https://github.com/cosmos/relayer/compare/92b4c038ed9bbff79f091e500af363f84a91f257...cc84847ff826820f719634c4faaf9e7d2c4b8d06,
+base feat: gordian consensus support,"September 4, 2024","Gordian, Relayer",https://github.com/cosmos/relayer/pull/1492,
+"more grpc, migrate types, flesh out interaction via http (grpc wrapper), for relayer integration","September 4, 2024",Gordian,https://github.com/rollchains/gordian/compare/51bb86a4ca7fa9e0584f8bf71911976e87538939...ec9423087caf4966f83670daddf485302fe45434,
+stub out gRPC request using cometbft types with an override hack,"September 4, 2024",Gordian,https://github.com/rollchains/gordian/commit/22fc80d9070a4598b645f56d1afe7a0ee94a8fc7,this is the ugliest hack I have ever written in my life but it 1) works 2) is simple 3) is ugly 4) functions
+ChainChain SRS WIP,"September 4, 2024",Spawn,,
+blog: Spawn Version 0.50.7 Upgrade,"September 4, 2024","Blog, Spawn",https://x.com/rollchains/status/1831353737299800064,
+feat(x/genutil): bulk add genesis accounts (backport #21372),"September 4, 2024",CosmosSDK,https://github.com/cosmos/cosmos-sdk/pull/21544/files,
+finish spawn blog v0.50.7,"September 3, 2024",Spawn,,r4r
+pulling out relayer interface required for gordian endpoints,"September 2, 2024","Gordian, IBC, Relayer",https://github.com/cosmos/relayer/pull/1490,this reece/gordian branch will be used as a reference. Will re-do work cleanly to include penumbra and feegrant support once a base is done
+started migration of grpc within http handler + fixing test,"September 1, 2024",Gordian,,
+spawn windows install guide,"August 30, 2024","Docs, Spawn","https://github.com/rollchains/spawn/issues/202
+https://github.com/rollchains/spawn/pull/203","fully tested, working woo!"
+booked cosmoverse,"August 29, 2024",,,
+WIP reverse proxy balancing for multiple nextras,"August 29, 2024","Docs, ICF",,issue: css styles don’t like to play nicely. Feel we need to just merge repos into 1 vs trying to hack this together
+pulling code out from relayer and working on gordian IBC gRPC queries,"August 28, 2024","Gordian, Relayer",,
+Spawn Blog,"August 28, 2024","Blog, Spawn",,v0.50.1 → v0.50.7
+DevEx,"August 28, 2024","ICF, Meeting",,
+nextra WIP,"August 28, 2024","Docs, ICF",,
+allocations,"August 27, 2024",Meeting,,
+ICS Dungeon testnet,"August 27, 2024",CosmosHub,https://github.com/cosmos/testnets/pull/619,
+Wormhole debugging meeting,"August 27, 2024",Meeting,,
+leap meeting,"August 27, 2024",Meeting,,
+Review: feat: implement override flag when creating clients,"August 26, 2024","Review, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/1237,
+interchaintest v8.7 blog,"August 26, 2024",Writing,https://strange.love/blog/interchaintest-v8-7,
+remove: globalfee module (bad UX) ,"August 26, 2024","GlobalFee, Spawn",https://github.com/rollchains/spawn/pull/201,"Event the cosmology team had issues with it. Hub dropped it, removing. oh well"
+"fix(local-ic): multiple ics chains, faster relayer","August 25, 2024",local-interchain,https://github.com/strangelove-ventures/interchaintest/pull/1235,
+"debugging osmosis issue for timewave, informed","August 25, 2024",Osmosis,,
+feat(grpc): transaction retrieval,"August 24, 2024",Gordian,https://github.com/rollchains/gordian/pull/17,
+dungeon v0.1.0,"August 24, 2024",,https://github.com/Crypto-Dungeon/dungeonchain/releases/tag/v0.1.0,
+spawn v0.50.7,"August 23, 2024",Spawn,https://github.com/rollchains/spawn/releases/tag/v0.50.7,
+ICT / local-ic v8.7.0 release,"August 23, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/releases/tag/v8.7.0,
+Ollie,"August 23, 2024",Meeting,,
+review: feat(geth): add ethereum support for the geth binary,"August 23, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/1230,
+feat: poa authority query,"August 22, 2024",PoA Module,https://github.com/strangelove-ventures/poa/pull/218,
+fix(local-ic): showcase proper available chains,,,https://github.com/strangelove-ventures/interchaintest/pull/1229,
+test: bulk account including append & supply,"August 21, 2024",CosmosSDK,https://github.com/cosmos/cosmos-sdk/pull/21372/commits/670282d9b9b5f3fc5525b0c533e1acb88bd63b95,
+review: feat: add thorchain support,"August 21, 2024",Review,https://github.com/strangelove-ventures/interchaintest/pull/1219,
+refactor: grpc base structure,"August 21, 2024",Gordian,https://github.com/rollchains/gordian/pull/16,
+chore(deps): wasmvm2 + wasmd security patch | fix: namespace,"August 21, 2024",,https://github.com/Crypto-Dungeon/dungeonchain/pull/1,
+local-ic cors fix for Cosmology,"August 21, 2024",local-interchain,https://github.com/strangelove-ventures/interchaintest/pull/1226,
+Galen,"August 21, 2024",Meeting,,
+feat: enabled-unsafe-cors,"August 21, 2024",Spawn,https://github.com/rollchains/spawn/pull/199,"WOW much better UX for frontends, thanks so much Anmol at Cosmology for this tip here."
+fix: stupid version issues with sdk v0.47.5 & gogo proto & backported ibc-go/modules/capabilities,"August 20, 2024",IBC-Apps,https://github.com/cosmos/ibc-apps/compare/e736c73f6deb8c9d9bff89bb8549d109e2ade521...3718ccd1c3950148e81b5f33685797f63a001a68,talk about terrible UX lmao
+review: docs: update maintained branches table,"August 20, 2024",IBC-Apps,https://github.com/cosmos/ibc-apps/pull/212,
+feat(x/genutil): bulk add genesis accounts,"August 20, 2024",CosmosSDK,https://github.com/cosmos/cosmos-sdk/pull/21372,
+"gRPC Buf working with cosmos proto, fails to gRPC despite being in the list??","August 20, 2024",Gordian,https://github.com/rollchains/gordian/compare/4d4c9be9681873ea4b85be83e42b9f823eeabd63...d29947b576c28d5a6df33b3588776a09dc1a2aab,"reflection is on, service is registered. odd"
+Mark’s gRPC comments,"August 20, 2024",Gordian,https://github.com/rollchains/gordian/compare/9b42df71d87801858c3fffea76a78536cf9aa8e9...32a59be21c0a75373405ca1e0f24500cc241fb74,"local grpcurl, comments, base64 -w fix for mac, move back txmanager → gsi, Start() → serve(), wrapped errors, "
+Airdrop Allocation Viewer microservice,"August 19, 2024",WebApp,https://github.com/Reecepbcups/airdrop-allocation-viewer,Super simple webapp to show airdrop allocations from any address → the base genesis of a network
+Attempt migration to buf,"August 19, 2024",Gordian,https://github.com/rollchains/gordian/commit/4d4c9be9681873ea4b85be83e42b9f823eeabd63,"cosmos/gogoproto not happy with duplicate definitions. When it is, it wont expose the GRPCService despite being registered (works with protoc)"
+Gordian GRPC Server,"August 19, 2024",Gordian,https://github.com/rollchains/gordian/compare/36e533ed8f54143c63a5d53b0a21879b46869a39...939d712245ac7fe0a8e0362f8531943001e2b93c,"proto + protoc, duplicates of all http methods (Block, Validators, SubmitTx, Simulate, Pending, QueryAccBal), adds docs examples"
+debug: wormhole wasm decorator wrapper w/ missing nested wasmvm api calls in cgo,"August 19, 2024",wormhole,,for Joel
+issue: [Feature]: Bulk add genesis accounts ,"August 18, 2024",CosmosSDK,https://github.com/cosmos/cosmos-sdk/issues/21340,
+fast-genesis-airdrop to dungeon streamswap holders,"August 18, 2024",CosmosSDK,https://github.com/CryptoDungeon/dungeonchain/compare/32efc27e662350c87de9a15703867eedcb15eb00...ec1dc58acba5e22ce3fcff665ebf2892362be99a,Trying to airdrop 250k accounts is pretty much impossible without 5-10+ hours of time. Wrote a script which reduces this down to mear seconds
+chore(ci): retry on failed test,"August 17, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/1222,
+feat: gRPC,"August 15, 2024",Gordian,https://github.com/rollchains/gordian/pull/8,"Golang base with proto, Rust client. Working"
+review: feat(utxo): Add support for utxo chains,"August 15, 2024","Review, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/1220,
+IDA redesign,"August 15, 2024",Docs,,
+elys meeting,"August 15, 2024",Meeting,,
+release: v7.1.0,"August 15, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/releases/tag/v7.1.0,required for wormhole
+review: fix(v7): tx out of gas,"August 15, 2024","Review, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/1216,
+kapa AI interchain bot,"August 15, 2024",Bots,,
+feat: generate chain registry file on new network,"August 14, 2024",Spawn,https://github.com/rollchains/spawn/pull/194,"Simplified, cleaned up, productionized"
+"poa, globalfee, tokenfactory, sdk, IBC, and CometBFT latest","August 14, 2024",Spawn,https://github.com/rollchains/spawn/pull/191,
+fix: gordian server context on start,"August 14, 2024","Gordian, Spawn",https://github.com/rollchains/spawn/compare/5565b714bacc3521f7341bdc4bc026b226b08f7d...50f54f3cbd84157e3cc8facc4e2871b565e0bb7e,
+andromeda upgrade presentation,"August 13, 2024",Ecosystem,,
+Integrating polytone native into interchaintest,"August 13, 2024",interchain-test,,
+ollie docs,"August 13, 2024",Docs,,
+refactor/feat: Cached Chain Startup State,"August 13, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/1214,
+Review: bump optimizer to v0.16.0,"August 12, 2024",daodao,https://github.com/DA0-DA0/dao-contracts/pull/873,
+reviewing documentation best practices & tearing apart the current Cosmos docs site,"August 12, 2024",Docs,,
+kube + dind local-ic config for gitlab,"August 12, 2024",local-interchain,,
+finished: feat(local-ic): typescript driver,"August 10, 2024","interchain-test, local-interchain",https://github.com/strangelove-ventures/interchaintest/pull/1203,
+finish: feat(local-ic): bash driver,"August 10, 2024","interchain-test, local-interchain",https://github.com/strangelove-ventures/interchaintest/pull/1207,
+feat: deny vesting accounts from staking,"August 10, 2024",,https://github.com/CryptoDungeon/dungeonchain/pull/5,
+refactor: docker label cleanup for running containers,"August 9, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/1213,
+Osmosis streamswap token mint,"August 9, 2024",Osmosis,https://github.com/CryptoDungeon/dungeonchain/pull/2/commits/26c89319306a5353afdc88d844d845a1f019bf84,for dungeon chain
+review: tokenfactory x cw20 contract,"August 8, 2024",TokenFactory,https://github.com/burnt-labs/contracts/pull/31,CW20 TF wrapper is very nice
+daodao polytone merge into ibc-apps,"August 8, 2024","IBC-Apps, daodao",https://github.com/cosmos/ibc-apps/pull/169,"minor fix, nothing compared to 3mo ago"
+"fix UI bug with consensus, gomod cache","August 8, 2024","WebApp, chainchainui",,
+refactor: ~50% faster,"August 7, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/1208,103s test → just 60s. Then standalone 12s → 8s
+feat(local-ic): bash driver,"August 7, 2024","interchain-test, local-interchain",https://github.com/strangelove-ventures/interchaintest/pull/1207,
+feat(local-ic): catch os.Interrupt / sigterm signals and cleanup,"August 7, 2024",local-interchain,https://github.com/strangelove-ventures/interchaintest/pull/1206,wooo ctrl+c for the win!!
+initial chainchain UI base & API for generation with spawn docker,"August 7, 2024","Spawn, WebApp, chainchainui",private for now,https://file.notion.so/f/f/d920b70d-3147-4c7a-8627-33ab665cb9f1/aaca9240-26e6-4e52-8684-f4101cdaf440/Untitled.png?table=block&id=755b73c6-982e-4d76-b647-85249e488b25&spaceId=d920b70d-3147-4c7a-8627-33ab665cb9f1&expirationTimestamp=1723089600000&signature=K_B_HUwjdf8WgMzw-SbOdj5grmkvPiytC7Axn1I9L3s&downloadName=Untitled.png
+"fix: spawn docker (make, ca-certs, go)","August 7, 2024",Spawn,https://github.com/rollchains/spawn/pull/195,
+docs: cleanup wasm_hook.go,"August 7, 2024","IBC-Apps, Review",https://github.com/cosmos/ibc-apps/pull/165,
+v0.50.3,"August 7, 2024",PoA Module,https://github.com/strangelove-ventures/poa/releases/tag/v0.50.3,"single authority, no params"
+chore: add mark’s fixes to the concurrency docs,"August 6, 2024",Gordian,https://github.com/rollchains/gordian/pull/1,
+review: docs: update doc to reflect latest changes,"August 6, 2024","PoA Module, Review",https://github.com/strangelove-ventures/poa/pull/212,
+gccodec transaction decoder,"August 6, 2024",Gordian,https://github.com/rollchains/gordian/pull/7/files,
+feat: Gordian Integration,"August 6, 2024","Gordian, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/1205,Chain start & basics status queries
+feat: local chain registry endpoint & assets if file is found,"August 6, 2024","interchain-test, local-interchain",https://github.com/strangelove-ventures/interchaintest/pull/1204,
+feat: generate chain registry file on new network,"August 6, 2024",Spawn,https://github.com/rollchains/spawn/pull/194,request from Cosmology (ref: slack)
+patch!: IBC module ordering to allow for ICS29 relaying,"August 6, 2024",Juno,https://github.com/CosmosContracts/juno/pull/1044,
+gordian: dockerfile-ify simapp so we can start ICT,"August 5, 2024",Gordian,https://pastebin.com/32sDa7ZJ,
+fix: codec and authority IsAdmin always returning true. merged,"August 5, 2024",PoA Module,https://github.com/strangelove-ventures/poa/pull/184,"e2e caught it, good stuff"
+Get stupid fucking POA simualtion to pass with hacked around env address,"August 4, 2024",PoA Module,https://github.com/strangelove-ventures/poa/pull/184,
+feat!: wasmvm 2 latest + dependency changes,"August 4, 2024","TokenFactory, wasmvm",https://github.com/strangelove-ventures/tokenfactory/pull/4,https://github.com/strangelove-ventures/tokenfactory/releases/tag/v0.50.3-wasmvm2
+feat: typescript client example,"August 3, 2024","Typescipt, interchain-test, local-interchain",https://github.com/strangelove-ventures/interchaintest/pull/1203,
+Working Spawn w/ gordian selection,"August 3, 2024","Gordian, Spawn",https://github.com/rollchains/spawn/pull/193,"spawn new myunit --disable=explorer --consensus=pos --engine=gordian
+
+or —engine=cometbft"
+refactor(v0.52->Gordian): v2 base,"August 2, 2024",Spawn,https://github.com/rollchains/spawn/pull/193,v0.52 migration into the current simapp dir. The big refactor for getting spawn gen to work
+"Proper TxDecoder (public), direct *server.Context","August 2, 2024",Gordian,https://github.com/rollchains/gordian/compare/fba4794dd13774729714553fbdb63c5f7b29c54f...5e9b6e9c82f9c720e1a1b159bd68569c3fc05814,integrated into an external v2 simapp now along side cometbft. Need to work on getting spawn to work with the new v2 format.
+debugged wasmvm issue where they put in the incorrect path for v0.51 jump,"August 2, 2024","CosmWasm, CosmosHub","https://github.com/cosmos/gaia/pull/3230
+https://github.com/cosmos/gaia/pull/3253",
+feat(v0.52): gordian integration,"August 2, 2024",Spawn,https://github.com/rollchains/spawn/pull/192,
+feat: spawn integration,"August 2, 2024",Gordian,https://github.com/rollchains/gordian/pull/6,
+chore(deps): August bumps,"August 1, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/1202,
+review: test!: nested msg tests,"July 26, 2024","PoA Module, Review",https://github.com/strangelove-ventures/poa/pull/207,
+review: tokenfactory docs,"July 26, 2024","Review, TokenFactory",https://github.com/strangelove-ventures/tokenfactory/pull/18,
+wormhole internal,"July 24, 2024","Meeting, wormhole",upgrade,
+v0.50.6,"July 24, 2024",Spawn,https://github.com/rollchains/spawn/releases/tag/v0.50.6,skipped v0.50.5 because of version parse error with spawn
+ICT v8.6.1,"July 24, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/releases/tag/v8.6.1,
+review fix: keep ICS version override from being wiped,"July 23, 2024","Review, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/1187,
+review + fixes: refactor: remove the ability to take a fee for each PFM packet,"July 23, 2024","IBC-Apps, Review",https://github.com/cosmos/ibc-apps/pull/202,
+Review: chore: add help target to display the usage of all targets,"July 23, 2024","Relayer, Review",https://github.com/cosmos/relayer/pull/1484,
+Putting more SDK help / tutorials together,"July 23, 2024",Docs,,
+review: feat(cov): simulator test coverage ,"July 23, 2024","Review, TokenFactory",https://github.com/strangelove-ventures/tokenfactory/pull/15,
+"review: chore(qol): lint, govulncheck, go vet & bumps","July 23, 2024","Review, TokenFactory",https://github.com/strangelove-ventures/tokenfactory/pull/16,
+"review: chore(qol): govulncheck, go vet & bumps","July 23, 2024","PoA Module, Review",https://github.com/strangelove-ventures/poa/pull/206,
+review: feat(v2): wiring v2,"July 23, 2024","PoA Module, Review",https://github.com/strangelove-ventures/poa/pull/202,
+review: added ibc-rate-limiting module for sdk 47,"July 23, 2024","IBC-Apps, Review",https://github.com/cosmos/ibc-apps/pull/201,
+SphereX EVM security,"July 23, 2024","Meeting, bizdev",,
+review: feat: Allow configuring default --gas limit for transactions,"July 23, 2024","Review, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/1184,
+review: fix: upgrade proposals for SDK >= 0.47,"July 23, 2024","Review, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/1183,
+initial blog article work,"July 22, 2024","Article, Spawn",,
+ibc-rate-limiting v8.0.0,"July 22, 2024","IBC-Apps, Stride",https://github.com/cosmos/ibc-apps/releases/tag/modules%2Frate-limiting%2Fv8.0.0,
+feat: outdated version notifier (spawn + local-ic) finished,"July 22, 2024","Spawn, local-interchain",https://github.com/rollchains/spawn/pull/156,
+chore(v8): tweak ibc rate-limit addition,"July 22, 2024","IBC-Apps, Stride",https://github.com/cosmos/ibc-apps/pull/194,"Finished up, will get a v8.0.0 tagged for the hub team"
+v8.6.0,"July 22, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/releases/tag/v8.6.0,
+feat: Working block explorer locally,"July 21, 2024",Spawn,https://github.com/rollchains/spawn/compare/0c34df3429b93f6beae98990b82945b83d92ce08...a0767a0093ea002631efebe6e2b416a4ddd22350,
+feat: add block explorer,"July 20, 2024","Spawn, WebApp",https://github.com/rollchains/spawn/pull/187,
+review: fix(ante): prevent nested withdraw delegator rewards,"July 20, 2024","PoA Module, Review",https://github.com/strangelove-ventures/poa/pull/201,
+chore(deps): SDK v0.50.8 + POA v0.50.2 ,"July 19, 2024",Spawn,https://github.com/rollchains/spawn/pull/186,
+review: feat!: simulator support,"July 19, 2024","PoA Module, Review",https://github.com/strangelove-ventures/poa/pull/186,
+"Fix protos, auto gen, make types happy","July 18, 2024",evm,https://github.com/rollchains/cosmos-evm/compare/14dace29d3758c473ab6bc0bef3bba1335abdef6...d5028d641910bd4842b2b243f06333526ac828a4,
+review: feat: PreGenesis now takes the chain instead of the chainconfig,"July 18, 2024","Review, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/1181,
+review: feat: allow consumers to have different keys than providers (#1175),"July 18, 2024","Review, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/1180#event-13560219686,
+cosmos-evm fix base compiles,"July 18, 2024",evm,https://github.com/rollchains/cosmos-evm/compare/8fe7013b33c9e4b70b5e197959f1295e89a75c26...14dace29d3758c473ab6bc0bef3bba1335abdef6,
+SDK: EVM x SDK,"July 18, 2024","CosmosSDK, evm",https://github.com/rollchains/cosmos-sdk/compare/08621c101b433e312f455bbddcde2767bc3a7d35...6813ad1599bec81ee586aa97db23d2ccc9869c44,"Fix store, new context methods, forked CometBFT for EVM error types, CTX/Denom helpers, modified x/Bank for collections, events, and changing that balance, made methods public for application interaction"
+CometBFT: EVM x SDK v0.50,"July 18, 2024","cometbft, evm",https://github.com/rollchains/cometbft/pull/1,Ideally we can just have a map[string][]byte where we can put any extra data we want in consensus. This way we define EvmTxInfo on the application side in ExecTxResult. instead of having to always add new types.
+review: docs: content reporting + using community standards page,"July 18, 2024","Review, oss",https://github.com/strangelove-ventures/oss-repo-template-golang/pull/43,
+review: docs: workflow setup,"July 18, 2024","Review, oss",https://github.com/strangelove-ventures/oss-repo-template-golang/pull/39,
+spherex,"July 18, 2024","Meeting, evm",,EVM security contract product (met at WEthCC side event)
+dungeon chain airdrop WIP,"July 17, 2024",Scripts,,
+"feat: contact / email ","July 17, 2024",Spawn,https://github.com/rollchains/spawn/commit/446aa03a7b38f67a01f3e4edda14d5d60961de3b,
+fmorency / manifest | POA Simulation & debugging,"July 17, 2024","Meeting, PoA Module",,
+feat: [BP: main <- #1175] allow consumers to have different keys than providers,"July 17, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/1179,
+feat: SDK v0.50 support,"July 17, 2024",Scripts,https://github.com/Reecepbcups/cosmos-submit-tx-client/pull/4,
+refactor: only use authority as admin (no params),"July 16, 2024",PoA Module,https://github.com/strangelove-ventures/poa/pull/184,
+Ran through backlog with JPB to EPIC’itize all past work,"July 16, 2024","Meeting, Spawn",,
+discussion,"July 16, 2024","Meeting, agoric",,
+feat: nest documentation within spawn as markdown,"July 16, 2024",Spawn,https://github.com/rollchains/spawn/pull/176,
+review: feat: add default entrypoint for the container image,"July 16, 2024",Relayer,https://github.com/cosmos/relayer/pull/1473,
+review: refactor: return err directly,"July 16, 2024",Relayer,https://github.com/cosmos/relayer/pull/1481,
+WIP:feat: POA module integration,"July 16, 2024","PoA Module, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/1176,
+fix: make install for local-ic release,"July 16, 2024",local-interchain,https://github.com/strangelove-ventures/interchaintest/pull/1149,
+review: allow consumers to have different keys than providers,"July 16, 2024",Review,https://github.com/strangelove-ventures/interchaintest/pull/1175,
+review: authz exec and coverage directory location,"July 15, 2024",Review,https://github.com/strangelove-ventures/interchaintest/pull/1173,
+test(e2e): migrate to sdk.TxResponse type,"July 15, 2024",PoA Module,https://github.com/strangelove-ventures/poa/pull/198,
+Finished final Penumbra reviews & code for context,"July 14, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/1157/commits/9352723eb97c51aaf311945784df8e6555b515fa,
+Brussels / EthCC / Side Events (→ Jul 14th),"July 5, 2024",,,
+v8.5.0,"July 2, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/releases/tag/v8.5.0,
+v0.50.3,"July 2, 2024",Spawn,https://github.com/rollchains/spawn/releases/tag/v0.50.3,
+spawn pre release cleanup,"July 2, 2024",Spawn,https://github.com/rollchains/spawn/pull/173,
+Spawn Slides for Brussels,"July 1, 2024","Spawn, presentation",,https://docs.google.com/presentation/d/1ld0LkHOziaoUR1fGRt_FxoEr4dQUUSfhWI71u8GG9yM/edit?usp=sharing
+fix final CI with version issue,"July 1, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/1158,
+test(ci): validate user modules / bag my head against the desk for 4 hours,"July 1, 2024",Spawn,https://github.com/rollchains/spawn/pull/172,"still no luck, make proto-gen is not actually gen’ing the files. works locally, is using docker. idk what gives "
+,,,,
