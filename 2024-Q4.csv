@@ -1,0 +1,208 @@
+﻿Task name,Date,Tags,Repo/PR,Notes
+"deploy custom service manager without writing on original base .sol contract, need to fix → component stuff still","December 31, 2024",wavs,,
+reviewing multichain support changes,"December 31, 2024","Review, wavs",,
+DevEx + component builder (evan) + multichain suport (david),"December 31, 2024","Meeting, wavs",,
+"working on building a service from scratch, including less dependence on the wavs-cli","December 30, 2024","Ethereum, wavs",,
+"review cleanup, bring back eth client cache, use alloy poller","December 30, 2024","Ethereum, wavs",https://github.com/Lay3rLabs/WAVS/compare/a809584c65448b99496a73ad13606caab5f0dd54...b09fb8059dfb3a52928ddf16e570873fa215ba09,
+david k - multi client support alt,"December 30, 2024",Meeting,,
+example: saving contracts to the wavs data dir with good UX,"December 29, 2024",wavs,https://github.com/Lay3rLabs/WAVS/commit/2554e10a5ba68dd8de1503f5f8bb3d7acf239435,
+"cleanup everything left, refactor eth start_watcher to be manageable","December 28, 2024",wavs,https://github.com/Lay3rLabs/WAVS/compare/7ffc11c534dea703080df6a0f5efcf7d77539b82...00004ade50c51e1bf62e1ef8189f8688e919bf96,
+fix: add packages/aggregator dependency to Dockerfile,"December 28, 2024",wavs,https://github.com/Lay3rLabs/WAVS/pull/248,
+chore: reduce checked in files,"December 28, 2024",wavs,https://github.com/Lay3rLabs/WAVS/pull/246,
+chore: switch to a submodule in the NFT art project,"December 28, 2024","Ethereum, wavs",https://github.com/Lay3rLabs/WAVS/pull/240,does not seem forge install was used here which is why. moved from 1.5 million LOC to 1500
+finish refactor for multiple network support,"December 28, 2024","Ethereum, wavs",https://github.com/Lay3rLabs/WAVS/compare/298c9f79b6f19db0d73005cf6581bf1124e73655...0d3716ec4acc5a498153743f8e180c44aa2dea3c,working with 2 instances woo!
+catch up + PR reviews,"December 28, 2024",wavs,,
+continued migration to multi-eth instances. working through the aggregator now,"December 23, 2024","Ethereum, wavs",https://github.com/Lay3rLabs/WAVS/compare/e4a9bd4179527e649a42d420dc06818362605fea...298c9f79b6f19db0d73005cf6581bf1124e73655,really messy but got it to work & atomic shutdown for multiple chains.
+refactor: generic multichain support for ethereum,"December 21, 2024","Ethereum, wavs",https://github.com/Lay3rLabs/WAVS/pull/237,
+Refactoring ETH trigger support for multiple clients att. 2,"December 20, 2024",wavs,,Was way to complex attempting to do with both ETH and Cosmos in 1 go. breaking it up
+"Finished CBB CBDC demo ","December 19, 2024","central-bank-brazil, penumbra, sei",https://www.youtube.com/watch?v=roLvLrsRlq4https://github.com/Reecepbcups/cbb-cbdc-demo,
+Refactored TriggerManager to support multiple ETH clients at once,"December 18, 2024","Ethereum, wavs",,"Still a WIP, I removed Cosmos support in the Trigger during this. need to re-add and multiplex streams again. Test pass for all unit + e2e with eth"
+Got Penumbra <> CosmosHub <> Sei working,"December 18, 2024","penumbra, sei",,"Next is to build a diagram, cleanup demo, and get something recorded by EOW"
+Patched PoA and Tokenfactory audits,"December 17, 2024","PoA Module, TokenFactory","https://github.com/strangelove-ventures/tokenfactory/releases/tag/v0.50.6-wasmvm2
+https://github.com/strangelove-ventures/poa/releases/tag/v0.50.6",
+Finish PoA audit findings refactors,"December 17, 2024",PoA Module,https://github.com/strangelove-ventures/poa/pull/237,
+refactor: support any number of chains,"December 17, 2024","CosmosSDK, Ethereum, wavs",https://github.com/Lay3rLabs/WAVS/pull/232,
+fix(e2e): aggregator deadlock,"December 17, 2024",wavs,https://github.com/Lay3rLabs/WAVS/pull/230,
+Tokenfactor / poa audits,"December 16, 2024","PoA Module, TokenFactory",,
+Trying to create a local relay to these networks is absolute garbage,"December 14, 2024","penumbra, sei",,"update: 4:44PM. Nothing works still and I am so over it. between Sei modifying random things in the resp. so that the client can’t parse it with ‘result’, and then go relayer not working with penumbra and there being no docs on it. Everything sucks here, there is no good DevEx flow. Explains why no one is doing this in prod.
+
+Maybe I do Sei → CosmosHub/Noble → Penumbra?"
+holy wow finally got view balance to work with a local dev-net,"December 12, 2024",penumbra,,"terrible UX, no docs on it. just says “add your account to the genesis” but they are all shielded…"
+v8.8.1,"December 11, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/releases/tag/v8.8.1,
+"Got nix + penumbra up and running (fixed), playing around with it","December 11, 2024","penumbra, sei",,
+interchaintest-ify,"December 11, 2024","interchain-test, wavs",https://github.com/Lay3rLabs/WAVS/pull/214,
+refactor: just native and simplified,"December 11, 2024",wavs,https://github.com/Lay3rLabs/WAVS/pull/212,
+got a penumbra (nix) + sei (docker) running in tandem w/ proper porting,"December 10, 2024",evm,,
+refactor: migrate from scripts/ to justfile,"December 10, 2024",wavs,https://github.com/Lay3rLabs/WAVS/pull/210,
+Clear docs on getting hermes + relayer working between SEI <> hub locally,"December 10, 2024",sei,,
+2x intros,"December 10, 2024",Meeting,,
+review: query denoms by admin,"December 10, 2024","Review, TokenFactory",https://github.com/strangelove-ventures/tokenfactory/pull/25,
+How the Core SDK works w/ Ollie,"December 10, 2024",Meeting,,
+Review: Update Namada example test with Namada v1.0.0,"December 10, 2024","Review, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/1316,
+fix: support tilde ~ in the wavs.toml for data dir,"December 9, 2024",wavs,https://github.com/Lay3rLabs/WAVS/pull/202,
+"Better cli, interactive flow w/ anvil","December 9, 2024","Review, wavs",https://github.com/Lay3rLabs/WAVS/pull/201,"reviewed, quick-started, and got a working flow + extra interactions to verify how the system operates"
+AHH finally got local sei <> hub to work w/ relayers wow,"December 9, 2024","Relayer, sei",,so hacky by design is terrible
+How the Core SDK works w/ Ollie,"December 9, 2024",Meeting,,
+"setup on wa.dev, playing around with WASI, fix tilde from the .toml not expanding","December 8, 2024","rust, wasm",,
+Played with foundy tools and cast a bunch,"December 7, 2024",foundry,,
+fix(cast): require valid hex for vanity search,"December 7, 2024","foundry, rust",https://github.com/foundry-rs/foundry/pull/9515,
+"I have spent an entire week banging my head on relaying. The UX is abysmal. Teams change things for no reason, breaking tooling.","December 7, 2024","IBC, Relayer","Can’t build shit when shit that is built doesn’t work. IBC tooling does not scale. call it a day. wrap it up. 
+
+what a joke.",
+v0.50 more changelog items,"December 5, 2024","Docs, thorchain",https://gitlab.com/thorchain/thornode/-/merge_requests/3836,
+rebased with changes,"December 5, 2024",thorchain,https://gitlab.com/thorchain/thornode/-/merge_requests/3809,
+3.0.0 changelog v44 → v50 breaking external changes,"December 5, 2024","Review, thorchain",https://gitlab.com/thorchain/thornode/-/merge_requests/3834,
+… they changed stuff that should not have been changed. now I have spent all day struggling to get IBC <> CosmosHub done.,"December 4, 2024","Relayer, evm, sei",,"got relayer and hermes configured, does not work though bc of some sei changed bs. fixed local sei scripts, slower blocks attempt"
+docs: architecture overview & considerations,"December 3, 2024","Docs, ICF",https://github.com/interchainio/dev-portal-docsite/pull/48,
+further learning of solidity development,"December 3, 2024",evm,,
+launched pointer contracts w/ ERC20 / native tokens,"December 3, 2024","CosmosSDK, evm",,
+advent of code day’s 1 and 2,"December 2, 2024",Scripts,,
+"Forge, .sol, and script learning w/ ERC20","December 2, 2024",evm,,"So different from CosmWasm, really does my head in."
+test: ics consumer verification,"November 29, 2024",prysm,https://github.com/LightLABS-Dev/prysm/pull/30,
+feat(deps)!: security patches + wasmvm2,"November 29, 2024",prysm,https://github.com/LightLABS-Dev/prysm/pull/29/files,
+ICS e2e,"November 29, 2024","ICS, Testing, prysm",https://github.com/LightLABS-Dev/prysm/pull/28,
+ICS v6 integration w/ testing,"November 26, 2024","ICS, prysm",https://github.com/LightLABS-Dev/prysm/pull/28,
+CosmWasm useful resources for others,"November 26, 2024",CosmWasm,,
+Many many,"November 26, 2024",Meeting,,
+Further migration to docusaurus,"November 26, 2024","Docs, ICF, cometbft",,
+Spawn UI Demo - A browser based cosmos chain and testnet launcher,"November 23, 2024","Spawn, Video, WebApp","https://youtu.be/oX_3wYAGhMU
+https://x.com/Reecepbcups_/status/1860406956860608915",
+debugged PFM appExport nil panic issue,"November 22, 2024",PFM,,
+"kvstore verification w/ upgrade,  working collections refactor locally with some stores & test","November 22, 2024","Testing, thorchain",,
+"ci passing running KVStoreService refactor, working through ICT v3 upgrade verification on this","November 21, 2024","interchain-test, thorchain","https://gitlab.com/thorchain/thornode/-/merge_requests/3796
+https://gitlab.com/thorchain/thornode/-/merge_requests/3809","no migrations required, then Hans can build off for new collections. Future PR for migrating to collections from old bytes, still needs more work"
+Further work to get lints passing so it is in a re-viewable stage & passes CI,"November 20, 2024",thorchain,https://gitlab.com/thorchain/thornode/-/merge_requests/3809,
+fix: lint-versions.bash if always fails,"November 19, 2024",thorchain,https://gitlab.com/thorchain/thornode/-/merge_requests/3811,
+refactor: migrating docs over to docusaurus,"November 19, 2024","Docs, ICF, cometbft",https://github.com/Reecepbcups/cometbft/pull/1,
+refactor: migrate to runtime KVStoreService,"November 19, 2024",thorchain,https://gitlab.com/thorchain/thornode/-/merge_requests/3809,
+EVM conversion → cosmos module,"November 18, 2024","CosmosSDK, evm",https://github.com/Reecepbcups/evmconversion/pull/1,
+chore(deps): bump ledger-go to fix issue,"November 18, 2024",andromeda,https://github.com/andromedaprotocol/andromedad/pull/69,
+Re-wrote fuzzy file finder in bash,"November 17, 2024","Scripts, bash",https://gist.github.com/Reecepbcups/a832bb9875513decfbdcca174f0d5cbb,
+feat: Eignlayer AVS Module and Demo ,"November 15, 2024","CosmosSDK, Eignlayer, PoA Module",https://github.com/Reecepbcups/eigenpoa/pull/1/files,
+feat: proof of authority in Hello World AVS,"November 15, 2024","Eignlayer, Ethereum",https://github.com/Reecepbcups/eigen-poa-avs/pull/1,
+"fix: git clone only, no pull (then checkout)","November 13, 2024","Docs, ICF",https://github.com/interchainio/dev-portal-docsite/pull/38,"before I was trying to git pull if a repo was already cloned. Since i migrated to the checkout commit lightweight via depth=1, this logic was incorrect. It only came up after running a latest-sync 2 times, vs CI only running 1 time in actions."
+fix: bad commit diffs for merge,"November 11, 2024","Docs, ICF",https://github.com/interchainio/dev-portal-docsite/pull/37,"latest sync content was successful on the PR, but failed actual main merge. Seemed something weird with caches as well? unsure exactly. may have been a github hiccup"
+palo,"November 11, 2024",,,
+DevEx Catchup & priorities,"November 11, 2024","ICF, Meeting",,
+feat: make fresh source docs in actions,"November 11, 2024","Docs, ICF",https://github.com/interchainio/dev-portal-docsite/commit/6f4aa8a3b6117fa4fb7ccc005171b2e20b7c51e7,
+example graph ql usage in golang w/ github discussions,"November 10, 2024",Scripts,https://github.com/Reecepbcups/example-gh-graphql,"Took me a bit to figure out how to do requests & interact since it was my first GraphQL experience. Golang def does not make it easy. Want to save future peeps time "
+feat(namada): Support Namada test,"November 10, 2024","Review, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/1296,
+IBC + Minecraft WIP,"November 9, 2024","IBC, Minecraft","https://github.com/Reecepbcups/cosmos-minecraft-integration/pull/10
+https://github.com/Reecepbcups/cosmossdk-minecraft-pvp-server/pull/4",Transfer an item from 1 minecraft server to another via IBC w/ CosmWasm
+feat: preview support,"November 8, 2024","Docs, ICF",https://github.com/interchainio/dev-portal-docsite/pull/35,
+feat: netlify prod deployment integration,"November 8, 2024","Docs, ICF",https://github.com/interchainio/dev-portal-docsite/pull/33,
+Fix building on PR workflows w/ cron,"November 8, 2024","Docs, ICF",https://github.com/interchainio/dev-portal-docsite/pull/28,
+Cron file sync,"November 8, 2024","Docs, ICF",https://github.com/interchainio/dev-portal-docsite/commit/deede9c77972919714c7fbf5c5effec4d8304260,
+fix: better ai button ux color,"November 7, 2024","Docs, ICF",https://github.com/interchainio/dev-portal-docsite/pull/26,
+feat: commit based content sync,"November 7, 2024","Docs, ICF",https://github.com/interchainio/dev-portal-docsite/pull/25,
+thorchain syncs,"November 7, 2024","Meeting, thorchain",,
+refactor: cosmos sdk,"November 7, 2024","Docs, ICF",https://github.com/interchainio/dev-portal-docsite/pull/24,
+feat: onboarding docs with spawn,"November 7, 2024","Docs, ICF, Spawn",https://github.com/interchainio/dev-portal-docsite/pull/22,
+"Reviewing SDK v50, and diving into the codebase","November 6, 2024",thorchain,,
+Released v0.50.5,"November 5, 2024",PoA Module,https://github.com/strangelove-ventures/poa/releases/tag/v0.50.5,
+released v2.6.0-rc.1,"November 5, 2024",Relayer,https://github.com/cosmos/relayer/releases/tag/v2.6.0-rc.1,
+IBC DeFi ideathon judging,"November 5, 2024",IBC,,
+Sanity check w/ Marc,"November 5, 2024","Meeting, interchain-test, wormhole",,
+DevEx 1-1,"November 5, 2024","ICF, Meeting",,
+v0.50 migration,"November 5, 2024","Review, thorchain","https://gitlab.com/thorchain/thornode/-/merge_requests/3756
+https://gitlab.com/thorchain/thornode/-/merge_requests/3761/pipelines",
+DevEx + Hackmos Retro,"November 4, 2024","ICF, Meeting",,
+migrating back to home repo,"November 2, 2024","CosmosSDK, Docs, ICF",https://github.com/cosmos/cosmos-sdk/pull/22411,there are too many issues to hack it together. bringing in
+netlify integration,"November 2, 2024","Docs, ICF",https://github.com/interchainio/dev-portal-docsite/pull/21/files,"Just like GH pages, CORS issue"
+v8.8.0,"November 1, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/releases/tag/v8.8.0,
+feat: telescope integration,"October 30, 2024","Spawn, Typescipt",https://github.com/rollchains/spawn/pull/262,working example done with a query woo!
+migrations to new simapp format & modules,"October 30, 2024","Gordian, Spawn",https://github.com/rollchains/spawn/compare/3e1e5fa07fc0b45cac96bd3405a4ba19d05aae49...cda1d1515c9bca60b87a8cb4c0a775bc2eca307a,"absolutely sucks ass with having to use main for some, tagged versions for others, and local replacements for our patches."
+deploy to gh pages,"October 30, 2024","Docs, ICF",https://github.com/interchainio/dev-portal-docsite/pull/20,https://test.docs-interchain.io/
+logger type fix,"October 30, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/1235/commits/a3f154166f76f94c51fcf344eda9dd8f72002568,
+Add banner for calls to action,"October 30, 2024","Docs, ICF",https://github.com/interchainio/dev-portal-docsite/issues/17,
+bunch of misc work getting back up to speed on things,"October 29, 2024","Docs, Spawn, interchain-test",,
+review: Fix version tag sorting in Makefile,"October 29, 2024","Review, Spawn",https://github.com/rollchains/spawn/pull/259,
+cosmoverse,"October 19, 2024",conference,"until the 29th
+https://github.com/rollchains/spawn/pull/252
+https://github.com/rollchains/spawn/pull/252",
+chore: update test suite to relevant binaries (dan k),"October 18, 2024","Review, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/1285,"review + final fixes and optimizations "
+new design + cometbft launch,"October 18, 2024","Docs, ICF",,
+ICT debugging conformance,"October 18, 2024","Noble, interchain-test",,"I think it is on Nobles side, not ICT"
+fix: cors and sse for logs,"October 18, 2024","Review, interchain-test",https://github.com/strangelove-ventures/interchaintest/pull/1284,
+ICT pr review fixes,"October 18, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/1269,
+"Verify cosmoverse workshops run through, convert from bash scripts to local-ic interact, finish workshop intro slides","October 16, 2024",Docs,https://github.com/rollchains/spawn/commit/7441adc17c2008c173a06272abb572a8a3d20fd0,
+spawn ui deployment,"October 16, 2024",Meeting,,
+refactor: wasm file location path to match expected,"October 16, 2024","Spawn, andromeda",https://github.com/rollchains/spawn/pull/246,
+final PR re-review,"October 15, 2024",andromeda,https://github.com/andromedaprotocol/andromedad/pull/66,
+Review Dimi’s changes,"October 15, 2024","Docs, ICF",,
+spawn v0.50.9,"October 14, 2024",Spawn,"https://github.com/rollchains/spawn/pull/244
+https://github.com/rollchains/spawn/releases/tag/v0.50.9","verification, testing across 4 machines, improve docs, shipped"
+devex,"October 14, 2024",Meeting,,
+chore: update to SDK v0.50,"October 12, 2024",andromeda,https://github.com/andromedaprotocol/andromedad/pull/66,total time taken: 12.2 hours all in. Usually this takes 2 engineering months full time. success
+chore(deps): latest cosmwasm v2 + security patches,"October 12, 2024",andromeda,https://github.com/rollchains/andromedad-upgrade/pull/12,
+launched demo unified docs-site,"October 12, 2024","Docs, ICF",,
+feat: standalone chain generation,"October 12, 2024",Spawn,https://github.com/rollchains/spawn/pull/242,
+test(e2e): module generation  + fix BUF cache permission issue,"October 12, 2024",Spawn,https://github.com/rollchains/spawn/pull/239,
+fix: do not require a directory for remote urls,"October 12, 2024",local-interchain,https://github.com/strangelove-ventures/interchaintest/pull/1283,
+stream container logs via API (with or without tty color),"October 12, 2024",local-interchain,https://github.com/strangelove-ventures/interchaintest/compare/16e733a7bee0155f86f4bb7b37e93b2ed89985a4...14a136e74e3914de7a7c9c07b998272f691ec6de,needed for the SpawnUI. Currently we only stream interaction logs - but container logs are useful too
+"docs: cosmwasm IBC tutorial content explanation ","October 12, 2024",Spawn,https://github.com/rollchains/spawn/pull/229,
+fix(proto-gen): change uids for user in the container,"October 12, 2024",Spawn,https://github.com/rollchains/spawn/pull/238,phew that was a ubuntu pain
+review spawn blog,"October 11, 2024","IBC, Writing",,
+refactor: clone local-ic instead of wget,"October 11, 2024",Spawn,https://github.com/rollchains/spawn/pull/237,
+add cosmology create-cosmos-app support,"October 11, 2024","Spawn, WebApp",https://github.com/rollchains/spawn/pull/236,
+rm ignite support,"October 11, 2024",Spawn,https://github.com/rollchains/spawn/pull/234,
+fix: ICS forge display change format,"October 11, 2024",Spawn,https://github.com/rollchains/spawn/pull/233,
+Ubuntu 22.04 issue with make protogen in docker,"October 11, 2024",Spawn,"https://github.com/rollchains/spawn/pull/232
+https://github.com/rollchains/spawn/pull/238","no files are generated from the docker container instance for some reason
+
+Running buf generate outside the container works tho."
+latest test version fixes,"October 10, 2024",andromeda,https://github.com/rollchains/andromedad-upgrade/pull/11,updated from testnet to mainnet version image
+galen debugging local-ic,"October 9, 2024",Meeting,https://github.com/strangelove-ventures/interchaintest/issues/1282,
+ToTs,"October 9, 2024",Meeting,,
+uplift kick off,"October 9, 2024",Meeting,,
+WIP: CW IBC nameservice example,"October 9, 2024","Docs, ICF, Spawn",https://github.com/rollchains/spawn/pull/229,"base working, passed data successfully"
+playing with create-cosmos-app spawn integration,"October 8, 2024","Spawn, WebApp",,"found a few bugs / issues, but net: rocks"
+"docs: debugging system help, more env docs","October 8, 2024","Docs, Spawn",https://github.com/rollchains/spawn/pull/227,
+so many calls,"October 8, 2024",Meeting,,
+galen + local-ic / spawn docker walkthrough & help,"October 8, 2024","Spawn, WebApp",,
+cleanup speed up internal testing review,"October 7, 2024",interchain-test,https://github.com/strangelove-ventures/interchaintest/pull/1263,
+linted,"October 7, 2024",andromeda,https://github.com/rollchains/andromedad-upgrade/pull/9,~20 minutes
+"dockerize, local search index, microsoft clarity","October 7, 2024","Docs, ICF","https://github.com/interchainio/dev-portal-docsite/pull/6
+https://github.com/interchainio/dev-portal-docsite/pull/8
+https://github.com/interchainio/dev-portal-docsite/pull/9",
+pre-cosmoverse priorities,"October 7, 2024","ICF, Meeting",,
+"cleanup, CW upgrade conformance, fix fee burn issue, completed v0.50 upgrade","October 7, 2024",andromeda,https://github.com/Reecepbcups/andromedad-upgrade/compare/9e56f07067576b2e95ee5f98f46ae44dff22a5b3...35caaef52e32d0fbab073daa5c94b90cd326a1bf,
+v2 interchaintest upgrade test,"October 5, 2024",andromeda,https://github.com/Reecepbcups/andromedad-upgrade/compare/a3cd156f6797510b93d793cb3af1879fe890dcdf...9e56f07067576b2e95ee5f98f46ae44dff22a5b3,"3h 21m
+
+- Fixed param register
+- added upgrade logic migrations
+- Within my 8 hour goal (7.95 hours)"
+v2 upgrade handler,"October 5, 2024",andromeda,https://github.com/Reecepbcups/andromedad-upgrade/commit/a3cd156f6797510b93d793cb3af1879fe890dcdf,13m
+ibc-hooks e2e,"October 5, 2024",andromeda,https://github.com/Reecepbcups/andromedad-upgrade/commit/bad8a44674a57e66ea1d85cf34c88801669f1c01,18m
+"move over sdk x/distr, apply changes, update protos, add CW queryAdapter, fix mocks","October 5, 2024",andromeda,,"1h:55m
+
+Need to fix gomock with new mod account, add upgrade handler, and add e2e. Then basic E2E for IBCHooks & verify their bash scripts work for testing alliance"
+code review,"October 4, 2024",interchain-test,,
+added more replace types,"October 4, 2024",Spawn,https://github.com/rollchains/spawn-chores-plugin/commit/4b7c80604e1b481232f922bde3bbc82504bb3327,
+"test(integration): gcosmos build, run, and verify action","October 4, 2024",Gordian,https://github.com/rollchains/gordian/pull/21/commits/d818782a8d99ec252847b99e8ff625514eb5aa0b,
+notion-summary-bot,"October 3, 2024",Scripts,https://github.com/Reecepbcups/notion-summary-bot,
+x/distribution fork diff check for migration,"October 3, 2024",andromeda,,
+"Migrating to v0.50. Chain running, e2e working, unit test passing","October 3, 2024",andromeda,https://github.com/Reecepbcups/andromedad-upgrade,"2h 10m so far
+- Diff setup for x/distribution fork: https://github.com/Reecepbcups/andr-diff (to compare for a clean pull over)
+- Initial generation, CI, & updates to app (home name for example
+- Renamed to proper org
+- add testuitl
+- fix feeburn ante
+- proper beginBlockers
+- removed distribution for now, will add back later
+- Fix upgrades (accidental nil)
+- make proto-gen with proper annotations (+ fix alliance)
+- Impl IBCHooks again
+- Add back in alliance
+- move to older wasmd for heighliner to be happy (will upgrade later to a wasmv2)
+- Running network with sh-testnet and interchaintest"
+fix: proto annotation for cosmos msg service,"October 3, 2024","alliance, andromeda",https://github.com/terra-money/alliance/pull/383,
+debugged ante sig verification issue. integration did not use chain-id.,"October 3, 2024",Gordian,https://github.com/rollchains/gordian/compare/39897611679420b81cfc8bb0c7c8c3f49e1bd31b...ffe7de16b33f4a0f1a579ea07fb12bfdfb040cc7,
+Interchain DevEx,"October 3, 2024","ICF, Meeting",,
+cleanup from Andrew’s reviews,"October 3, 2024",interchain-test,"https://github.com/strangelove-ventures/interchaintest/pull/1263
+https://github.com/strangelove-ventures/interchaintest/pull/1235",
+fix: add gentx vals to satisfy hashscheme,"October 2, 2024",Gordian,https://github.com/rollchains/gordian/pull/21,
+"fixing broken IBC links, bash script cleanup","October 2, 2024","Docs, ICF",,
+Gordian / IBC re prioritization plan / bizdev,"October 1, 2024",Meeting,,
+fix: test using the same storage key for default modules,"October 1, 2024",Spawn,https://github.com/rollchains/spawn/pull/225,
+devEx standup,"October 1, 2024",Meeting,,
